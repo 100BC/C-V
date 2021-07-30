@@ -1,14 +1,15 @@
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
 
-import Header from './Header';
-
-const defaultTitle = 'Otman Maowed';
-const defaultSiteName = 'Otman Maowed';
-const defaultDescription = 'Online CV for Otman Maowed, a Frontend Developer based in Canada';
-const defaultCanonicalUrl = 'https://www.otman.me';
-const defaultOgpImg = 'https://www.otman.me/OGP.png';
-const defaultOgpImgAlt = 'Purple Background with the word Otman Maowed in the center';
+import Header from '../Header';
+import {
+  defaultTitle,
+  defaultSiteName,
+  defaultDescription,
+  defaultCanonicalUrl,
+  defaultOgpImg,
+  defaultOgpImgAlt,
+} from './metaDefaults';
 
 interface BaseProps {
   title?: string;
