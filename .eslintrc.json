@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["airbnb-typescript", "next", "next/core-web-vitals", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    /* Prefer TypeScript */
+    "react/prop-types": 0,
+    "react/require-default-props": 0,
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": 0,
+    "react/jsx-no-undef": 0,
+
+    /* Rules */
+    "import/prefer-default-export": 0,
+    "arrow-body-style": 0,
+    "react/jsx-props-no-spreading": [1, { "custom": "ignore" }],
+    "jsx-a11y/label-has-associated-control": [2, { "assert": "htmlFor" }],
+
+    /* NextJS */
+    // next/link passes the href to the <a> tag
+    // already has error if next/link is missing the href
+    // be careful with <a> tags not wrapped in next/link
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ]
+  }
+}

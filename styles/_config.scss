@@ -1,0 +1,88 @@
+@use './variables' as *;
+
+:root {
+  --background-color: hsl(0, 0%, 85%);
+  --font-color: hsl(0, 0%, 0%);
+
+  @media (prefers-color-scheme: dark) {
+    --background-color: hsl(225, 3%, 29%);
+    --font-color: hsl(0, 0%, 100%);
+  }
+}
+
+html {
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $tablet) {
+    font-size: 56%;
+  }
+
+  @media only screen and (max-width: $phone) {
+    font-size: 50%;
+  }
+}
+
+body {
+  background: var(--background-color);
+  color: var(--font-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+time {
+  margin: 0;
+}
+
+main {
+  max-width: $max-width;
+  margin: auto;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+section,
+form {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: $blue-300;
+  }
+}
+
+button {
+  border: 0;
+  background: none;
+  color: inherit;
+
+  &:hover {
+    color: $blue-300;
+  }
+}
+
+img {
+  background: $grey;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
