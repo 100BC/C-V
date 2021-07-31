@@ -18,7 +18,7 @@ const PersonalProjects = () => {
         <li>
           Users are able to find musicians and albums based on location and genre, respectively
         </li>
-        <li>Frontend built with NextJS, TypeScript, and SCSS</li>
+        <li>Front-End built with NextJS, TypeScript, and SCSS</li>
         <li>Created a custom Graphql Express server with Prisma 2 ORM</li>
         <li>Docker was used to containerize the NodeJS server and PostgreSQL database</li>
         <li>Nexus Schema manages the backend schema</li>

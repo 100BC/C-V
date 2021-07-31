@@ -8,7 +8,7 @@ const UniProjects = () => {
       <WorkExperienceItem
         title="this.node.app"
         address="CMPUT 404 - Web Applications and Architecture"
-        jobTitle="Frontend Developer"
+        jobTitle="Front-End Developer"
         time="Jan. - Apr.&nbsp;2020"
         links={[
           {

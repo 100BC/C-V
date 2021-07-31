@@ -21,9 +21,9 @@ const Biography = () => {
       <section className={styles.section}>
         <h2>Professional Information</h2>
         <p>
-          I am a Frontend Development that specializes in React. I have high personal standards when
-          creating sites; I always ensure that the user experience, usability, time to first byte
-          and search engine optimizations are of high quality. In fact, my{' '}
+          I am a Front-End Development that specializes in React. I have high personal standards
+          when creating sites; I always ensure that the user experience, usability, time to first
+          byte and search engine optimizations are of high quality. In fact, my{' '}
           <Link href="https://github.com/100BC/nextjs-template">
             <a>NextJS template repo</a>
           </Link>{' '}
