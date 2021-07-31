@@ -33,7 +33,7 @@ const WorkExperiencePage = () => {
         </Link>
       </nav>
       <section>
-        {activePage === '0' && <WorkExperience />}
+        {(activePage === '0' || !activePage) && <WorkExperience />}
         {activePage === '1' && <PersonalProjects />}
         {activePage === '2' && <UniProjects />}
       </section>
