@@ -24,6 +24,10 @@
       color: $blue-200;
       font-style: normal;
     }
+
+    > a:hover {
+      text-shadow: 0 0 1px $blue-400;
+    }
   }
 
   > ul {

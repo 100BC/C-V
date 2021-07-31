@@ -21,9 +21,15 @@ const Header = () => {
 
   return (
     <header className={[styles.header, `${headerDark ? styles.headerDark : ''}`].join(' ')}>
-      <nav className={styles.desktopNav}>
+      <nav>
         <Link href="/">
           <a title="Overview">Overview</a>
+        </Link>
+        <Link href="/work-experience">
+          <a title="Work Experience">Work Experience</a>
+        </Link>
+        <Link href="/work-experience">
+          <a title="Work Experience">Biography</a>
         </Link>
       </nav>
     </header>
