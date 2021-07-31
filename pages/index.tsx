@@ -115,31 +115,40 @@ const Home = () => {
         </ul>
       </section>
       <section>
-        <h2>My Work</h2>
+        <h2>See My Work</h2>
         <hr />
-        <Link href="/work-experience">
+        <Link href="/work-experience?page=0">
           <a className={styles.readMore}>Read more about my work experience &#x2192;</a>
         </Link>
         <ul className={styles.work}>
           <li>
             <Link href="https://www.buddytree.org">
-              <a>Buddytree</a>
+              <a>
+                Buddytree
+                <div>Current Employer</div>
+              </a>
             </Link>
           </li>
           <li>
             <Link href="https://www.mooseical.com">
-              <a>Mooseical</a>
+              <a>
+                Mooseical
+                <div>Music Database Project</div>
+              </a>
             </Link>
           </li>
           <li>
             <Link href="https://www.bbrosfinishing.ca">
-              <a>B.Bros Finishing</a>
+              <a>
+                B.Bros Finishing
+                <div>Freelance Work</div>
+              </a>
             </Link>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Links</h2>
+        <h2>Profile</h2>
         <hr />
         <ul className={styles.work}>
           <li>

@@ -26,7 +26,7 @@ const WorkExperiencePage = () => {
           <a className={activePage === '0' ? styles.active : ''}>Work Experience</a>
         </Link>
         <Link href="/work-experience?page=1">
-          <a className={activePage === '1' ? styles.active : ''}>Work Experience</a>
+          <a className={activePage === '1' ? styles.active : ''}>Personal Projects</a>
         </Link>
         <Link href="/work-experience?page=2">
           <a className={activePage === '2' ? styles.active : ''}>University Projects</a>
