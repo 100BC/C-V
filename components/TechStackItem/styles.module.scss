@@ -1,6 +1,11 @@
 @use '~styles/variables' as *;
 
 .item {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  width: min-content;
   margin: 2rem;
+  white-space: nowrap;
 }

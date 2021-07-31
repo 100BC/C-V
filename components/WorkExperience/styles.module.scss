@@ -1,17 +1,8 @@
 @use '~styles/variables' as *;
 
 .experience {
+  @extend %section-page-template;
   padding-bottom: 4rem;
-  text-align: start;
-
-  &:last-child {
-    padding: 0;
-  }
-
-  > h2 {
-    border-bottom: 4px solid $blue-300;
-    font-size: 4rem;
-  }
 
   > address {
     margin: 1rem 0;

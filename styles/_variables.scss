@@ -17,5 +17,17 @@ $blue-400: #3641d8;
 $blue-300: #5964ff;
 
 /* TEMPLATES */
+%section-page-template {
+  text-align: start;
+
+  &:last-child {
+    padding: 0;
+  }
+
+  > h2 {
+    border-bottom: 4px solid $blue-300;
+    font-size: 4rem;
+  }
+}
 
 /* MIXINS */

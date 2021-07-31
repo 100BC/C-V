@@ -1,0 +1,16 @@
+@use '~styles/variables' as *;
+
+.section {
+  @extend %section-page-template;
+
+  > a {
+    display: block;
+    margin: 2rem 0;
+    color: $blue-200;
+    font-size: 2rem;
+
+    &:hover {
+      text-shadow: 0 0 1px $blue-400;
+    }
+  }
+}
