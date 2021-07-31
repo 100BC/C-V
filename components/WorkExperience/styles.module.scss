@@ -1,0 +1,62 @@
+@use '~styles/variables' as *;
+
+.experience {
+  padding-bottom: 4rem;
+  text-align: start;
+
+  &:last-child {
+    padding: 0;
+  }
+
+  > h2 {
+    border-bottom: 4px solid $purple-400;
+    font-size: 4rem;
+  }
+
+  > address {
+    margin: 1rem 0;
+    font-size: 2rem;
+
+    > a {
+      display: block;
+      width: fit-content;
+      margin: 1rem 0;
+      color: $blue-200;
+      font-style: normal;
+    }
+  }
+
+  > ul {
+    padding-left: 50px;
+
+    > li {
+      max-width: 50ch;
+      padding: 0.5rem 0;
+      list-style: square;
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+
+    > li::marker {
+      color: $purple-400;
+    }
+  }
+}
+
+.descriptor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  > time {
+    margin: 1rem 0 0;
+    font-size: 2rem;
+  }
+
+  > h3 {
+    padding-right: 2rem;
+    font-size: 2.4rem;
+  }
+}

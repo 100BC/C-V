@@ -36,6 +36,10 @@
       font-weight: bold;
       font-size: 3rem;
     }
+
+    > li::marker {
+      color: $purple-400;
+    }
   }
 }
 
