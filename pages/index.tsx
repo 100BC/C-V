@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Layout from '@components/Layout';
 import styles from '@styles/home.module.scss';
@@ -96,13 +97,28 @@ const Home = () => {
           </li>
         </ul>
       </section>
-      <section className={styles.work}>
+      <section>
         <h2>My Work</h2>
         <hr />
-        <ul>
-          <li>Buddytree</li>
-          <li>Mooseical</li>
-          <li>B.Bros Finishing</li>
+        <Link href="/work-experience">
+          <a className={styles.readMore}>Read More about my work experience</a>
+        </Link>
+        <ul className={styles.work}>
+          <li>
+            <Link href="https://www.buddytree.org">
+              <a>Buddytree</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.mooseical.com">
+              <a>Mooseical</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.bbrosfinishing.ca">
+              <a>B.Bros Finishing</a>
+            </Link>
+          </li>
         </ul>
       </section>
     </Layout>
