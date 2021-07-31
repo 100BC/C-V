@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import Layout from '@components/Layout';
 import styles from '@styles/home.module.scss';
+import TechStackItem from '@components/TechStackItem';
 
 const Home = () => {
   return (
@@ -31,66 +32,67 @@ const Home = () => {
         <hr />
         <ul>
           <li>
-            <Image
+            <TechStackItem
               src="/images/ts-logo-128.png"
-              layout="fixed"
-              width={48}
-              height={48}
-              alt="TypeScript Logo"
-            />{' '}
-            TypeScript
+              brand="TypeScript"
+              link="https://www.typescriptlang.org/"
+            />
           </li>
           <li>
-            <Image
+            <TechStackItem
               src="/images/js.png"
-              layout="fixed"
-              width={48}
-              height={48}
-              alt="JavaScript Logo"
-            />{' '}
-            JavaScript
+              brand="JavaScript"
+              link="https://www.javascript.com/"
+            />
           </li>
           <li>
-            <Image
+            <TechStackItem
               src="/images/nextjs-icon-dark.png"
-              layout="fixed"
-              width={48}
-              height={48}
-              alt="NextJS Logo"
-            />{' '}
-            NextJS
+              brand="NextJS"
+              link="https://nextjs.org/"
+            />
           </li>
           <li>
-            <Image src="/images/react.png" layout="fixed" width={48} height={48} alt="React Logo" />{' '}
-            React
+            <TechStackItem src="/images/react.png" brand="React" link="https://reactjs.org/" />
           </li>
           <li>
-            <Image src="/images/redux.png" layout="fixed" width={48} height={48} alt="Redux Logo" />{' '}
-            Redux
+            <TechStackItem src="/images/redux.png" brand="Redux" link="https://redux.js.org/" />
           </li>
           <li>
-            <Image src="/images/sass.png" layout="fixed" width={48} height={48} alt="Sass Logo" />{' '}
-            SCSS
+            <TechStackItem src="/images/sass.png" brand="SCSS" link="https://sass-lang.com/" />
           </li>
           <li>
-            <Image
-              src="/images/postcss.png"
-              layout="fixed"
-              width={48}
-              height={48}
-              alt="PostCSS Logo"
-            />{' '}
-            PostCSS
+            <TechStackItem src="/images/postcss.png" brand="PostCSS" link="https://postcss.org/" />
           </li>
           <li>
-            <Image
+            <TechStackItem
               src="/images/GraphQL-mark.png"
-              layout="fixed"
-              width={48}
-              height={48}
-              alt="GraphQL Logo"
-            />{' '}
-            GraphQL
+              brand="GraphQL"
+              link="https://graphql.org/"
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/express.png"
+              brand="ExpressJS"
+              link="https://expressjs.com/"
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/firebase.png"
+              brand="Firebase"
+              link="https://firebase.google.com/"
+              width={32}
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/prisma.png"
+              brand="Prisma 2"
+              link="https://www.prisma.io/"
+              width={40}
+            />
           </li>
         </ul>
       </section>
