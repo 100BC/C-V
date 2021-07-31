@@ -7,22 +7,20 @@ const PersonalProjects = () => {
     <>
       <WorkExperienceItem
         title="Mooseical"
-        jobTitle="Canadian Music Database"
+        jobTitle="Canadian Underground Music Database"
         time="Oct.&nbsp;2020 - Present"
         links={[
           { href: 'https://www.mooseical.com/', name: 'mooseical.com' },
           { href: 'https://mooseical-server.herokuapp.com/graphql', name: 'graphql playground' },
         ]}
       >
-        <li>
-          Mooseical is a Canadian musician database specifically targeting underground artists
-        </li>
-        <li>Currently undergoing a major refactor</li>
-        <li>Refactor includes switching from Google Firebase towards an Express GraphQL Sever</li>
-        <li>Server utilizes Prisma 2 to manage a PostgreSQL database</li>
+        <li>Passion project that is a database of underground Canadian musicians</li>
         <li>Front-End built with NextJS, TypeScript, and SCSS</li>
+        <li>Utilizes a custom built Graphql Express server with Prisma 2 ORM</li>
+        <li>Originally built with Google Firebase backend</li>
         <li>Went live in Feb. 2021</li>
         <li>SEO optimizations including Open Graph Protocol</li>
+        <li>Perfect Google Lighthouse score</li>
         <li>
           Ensured responsive design, image and code optimizations to reduce time to first byte
         </li>

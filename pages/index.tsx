@@ -109,7 +109,7 @@ const Home = () => {
         <h2>My Work</h2>
         <hr />
         <Link href="/work-experience">
-          <a className={styles.readMore}>Read more about my work experience</a>
+          <a className={styles.readMore}>Read more about my work experience &#x2192;</a>
         </Link>
         <ul className={styles.work}>
           <li>

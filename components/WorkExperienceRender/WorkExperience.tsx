@@ -12,20 +12,18 @@ const WorkExperience = () => {
         time="Feb.&nbsp;2021 - Present"
         links={[{ href: 'https://buddytree.org/', name: 'buddytree.org' }]}
       >
-        <li>Currently, the sole maintainer of the React Frontend Codebase</li>
-        <li>Creating and styling pages that follow Responsive Design</li>
-        <li>Ensuring that use cases are covered and coded for</li>
+        <li>Developed the entirety of the frontend in collaboration with another developer</li>
+        <li>The current sole maintainer of the frontend code</li>
+        <li>Creating and styling pages that follow responsive design</li>
         <li>
           Work closely with the CEO and Project Manager to ensure the vision is met in a timely
           manner
         </li>
+        <li>Managing and educating interns in React, frontend development and best practices</li>
         <li>
-          In constant communication with the backend to help create API&apos;s and ensure database
-          and user security and privacy
+          In constant communication with the backend to implement API&apos;s and complete milestones
         </li>
-        <li>
-          Utilize Next Auth and Redux Toolkit for authentication and state management, respectively
-        </li>
+        <li>Technologies used: NextJS, SCSS, Next Auth, Redux Toolkit</li>
       </WorkExperienceItem>
       <WorkExperienceItem
         title="B.Bros Finishing"
@@ -36,7 +34,8 @@ const WorkExperience = () => {
       >
         <li>Created a website for a local business</li>
         <li>Ensured basic SEO and responsive design</li>
-        <li>Utilizes Google Firebase for file compression and serving</li>
+        <li>Utilizes Google Firebase for file serving</li>
+        <li>Perfect Google Lighthouse score</li>
       </WorkExperienceItem>
       <WorkExperienceItem
         title="Trust Science"
@@ -46,7 +45,7 @@ const WorkExperience = () => {
         links={[{ href: 'https://www.trustscience.com/', name: 'trustscience.com' }]}
       >
         <li>Mobile App development with React Native</li>
-        <li>Web Portal development with C#, jQuery, and ReactJS</li>
+        <li>Web Portal development with C#, jQuery, and React</li>
         <li>Assisted in refactoring the Mobile App to approximately 60% of its original size</li>
         <li>Created an AWS Lambda function connecting the App, Portal and Databases together</li>
         <li>Identified and corrected UI/UX problems in both the Portal and App</li>
