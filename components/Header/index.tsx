@@ -25,7 +25,7 @@ const Header = () => {
         <Link href="/">
           <a title="Overview">Overview</a>
         </Link>
-        <Link href="/work-experience">
+        <Link href="/work-experience?page=0">
           <a title="Work Experience">Work Experience</a>
         </Link>
         <Link href="/biography">
