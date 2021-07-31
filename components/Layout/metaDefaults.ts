@@ -1,4 +1,4 @@
-export const defaultTitle = 'Otman Maowed';
+export const defaultTitle = 'Otman Maowed | Frontend Developer';
 export const defaultSiteName = 'Otman Maowed';
 export const defaultDescription =
   'Online CV for Otman Maowed, a Frontend Developer based in Canada';
