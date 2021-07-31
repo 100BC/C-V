@@ -7,6 +7,11 @@ import styles from '@styles/home.module.scss';
 import TechStackItem from '@components/TechStackItem';
 
 const Home = () => {
+  const isDarkMode =
+    typeof window !== 'undefined'
+      ? window.matchMedia('(prefers-color-scheme: dark)').matches
+      : false;
+
   return (
     <Layout noIndex className={styles.home}>
       <h1>Otman Maowed</h1>
@@ -58,7 +63,7 @@ const Home = () => {
           </li>
           <li>
             <TechStackItem
-              src="/images/nextjs-icon-dark.png"
+              src={isDarkMode ? '/images/nextjs-light.png' : '/images/nextjs-icon-dark.png'}
               brand="NextJS"
               link="https://nextjs.org/"
             />
@@ -99,7 +104,7 @@ const Home = () => {
           </li>
           <li>
             <TechStackItem
-              src="/images/prisma.png"
+              src={isDarkMode ? '/images/prisma-light.png' : '/images/prisma.png'}
               brand="Prisma 2"
               link="https://www.prisma.io/"
               width={40}
@@ -154,7 +159,7 @@ const Home = () => {
         <ul className={styles.work}>
           <li>
             <TechStackItem
-              src="/images/github.png"
+              src={isDarkMode ? '/images/github-light.png' : '/images/github.png'}
               brand="GitHub"
               link="https://github.com/100BC"
             />
