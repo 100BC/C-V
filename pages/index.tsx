@@ -95,6 +95,14 @@ const Home = () => {
               width={40}
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/images/docker.png"
+              brand="Docker"
+              link="https://www.docker.com/"
+              height={34.5}
+            />
+          </li>
         </ul>
       </section>
       <section>
