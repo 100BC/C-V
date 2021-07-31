@@ -1,0 +1,57 @@
+@use '~styles/variables' as *;
+
+.home {
+  h2 {
+    font-size: 6rem;
+  }
+
+  img {
+    background: none;
+  }
+
+  > section {
+    margin-top: 4rem;
+  }
+}
+
+.headshot {
+  border-radius: 20%;
+  background: none;
+  box-shadow: 0 0 2px $black;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  text-align: start;
+
+  > ul {
+    padding-left: 40px;
+
+    > li {
+      margin: 2rem;
+      list-style: square;
+      font-weight: bold;
+      font-size: 3rem;
+    }
+  }
+}
+
+.techStack {
+  > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+  }
+
+  > ul > li {
+    margin: 2rem;
+  }
+}
+
+.work {
+}
