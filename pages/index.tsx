@@ -72,7 +72,12 @@ const Home = () => {
             <TechStackItem src="/images/react.png" brand="React" link="https://reactjs.org/" />
           </li>
           <li>
-            <TechStackItem src="/images/redux.png" brand="Redux" link="https://redux.js.org/" />
+            <TechStackItem
+              src="/images/redux.png"
+              brand="Redux"
+              link="https://redux.js.org/"
+              height={43}
+            />
           </li>
           <li>
             <TechStackItem src="/images/sass.png" brand="SASS" link="https://sass-lang.com/" />
@@ -99,7 +104,7 @@ const Home = () => {
               src="/images/firebase.png"
               brand="Firebase"
               link="https://firebase.google.com/"
-              width={32}
+              width={35}
             />
           </li>
           <li>
@@ -154,7 +159,7 @@ const Home = () => {
         </ul>
       </section>
       <section>
-        <h2>Profile</h2>
+        <h2>Links</h2>
         <hr />
         <ul className={styles.work}>
           <li>
