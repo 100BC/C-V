@@ -10,6 +10,14 @@ const Home = () => {
   return (
     <Layout noIndex className={styles.home}>
       <h1>Otman Maowed</h1>
+      <div className={styles.links}>
+        <Link href="mailto:omaowed1@gmail.com">
+          <a>Email: omaowed1@gmail.com</a>
+        </Link>
+        <Link href="https://drive.google.com/open?id=1pvT4qTGDJDJboUDofdFPO-7-w8e5tc8A">
+          <a>Download my Résumé</a>
+        </Link>
+      </div>
       <section>
         <div className={styles.info}>
           <Image
@@ -22,9 +30,10 @@ const Home = () => {
             className={styles.headshot}
           />
           <ul>
-            <li>Frontend Developer</li>
+            <li>Web Developer</li>
             <li>BSc. Computing Science</li>
             <li>University of Alberta, 2020</li>
+            <li>Alberta, Canada</li>
           </ul>
         </div>
       </section>
