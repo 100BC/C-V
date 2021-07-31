@@ -12,18 +12,28 @@ const WorkExperience = () => {
         time="Feb.&nbsp;2021 - Present"
         links={[{ href: 'https://buddytree.org/', name: 'buddytree.org' }]}
       >
-        <li>Developed the entirety of the frontend in collaboration with another developer</li>
-        <li>The current sole maintainer of the frontend code</li>
-        <li>Creating and styling pages that follow responsive design</li>
+        <li>Developing and maintaining the entirety of the frontend</li>
+        <li>NextJS (ReactJS) framework used for the codebase</li>
+        <li>Utilizing Redux-Toolkit for global state management</li>
+        <li>Configured Next Auth for user authentication</li>
+        <li>
+          Coordinate with back-end developer and systems engineer in order to implement new features
+          and services
+        </li>
+        <li>Collaborated with another web developer during the initial months of the project</li>
+        <li>
+          Creating and styling pages that follow responsive design, and taking advantage of CSS
+          modules
+        </li>
+        <li>Followed the Figma designs provided by the CEO and the designer</li>
         <li>
           Work closely with the CEO and Project Manager to ensure the vision is met in a timely
           manner
         </li>
-        <li>Managing and educating interns in React, frontend development and best practices</li>
         <li>
-          In constant communication with the backend to implement API&apos;s and complete milestones
+          Managing and educating university interns in React, and frontend development best
+          practices
         </li>
-        <li>Technologies used: NextJS, SCSS, Next Auth, Redux Toolkit</li>
       </WorkExperienceItem>
       <WorkExperienceItem
         title="B.Bros Finishing"
@@ -34,8 +44,11 @@ const WorkExperience = () => {
       >
         <li>Created a website for a local business</li>
         <li>Ensured basic SEO and responsive design</li>
-        <li>Utilizes Google Firebase for file serving</li>
-        <li>Perfect Google Lighthouse score</li>
+        <li>Google Firebase Storage and Firestore are used for file serving</li>
+        <li>
+          100% Score in Performance, Accessibility, Best Practices, and SEO in Google Lighthouse
+          score
+        </li>
       </WorkExperienceItem>
       <WorkExperienceItem
         title="Trust Science"

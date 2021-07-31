@@ -40,6 +40,7 @@ const Home = () => {
       <section className={styles.techStack}>
         <h2>Tech Stack</h2>
         <hr />
+        <div className={styles.readMore}>Programming Tools and Frameworks I specialize in</div>
         <ul>
           <li>
             <TechStackItem
@@ -69,7 +70,7 @@ const Home = () => {
             <TechStackItem src="/images/redux.png" brand="Redux" link="https://redux.js.org/" />
           </li>
           <li>
-            <TechStackItem src="/images/sass.png" brand="SCSS" link="https://sass-lang.com/" />
+            <TechStackItem src="/images/sass.png" brand="SASS" link="https://sass-lang.com/" />
           </li>
           <li>
             <TechStackItem src="/images/postcss.png" brand="PostCSS" link="https://postcss.org/" />
@@ -133,7 +134,7 @@ const Home = () => {
             <Link href="https://www.mooseical.com">
               <a>
                 Mooseical
-                <div>Music Database Project</div>
+                <div>Personal Project</div>
               </a>
             </Link>
           </li>

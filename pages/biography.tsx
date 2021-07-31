@@ -23,7 +23,7 @@ const Biography = () => {
         <p>
           I am a Frontend Development that specializes in React. I have high personal standards when
           creating sites; I always ensure that the user experience, usability, time to first byte
-          and search engine optimizations are of high standards and quality. In fact, my{' '}
+          and search engine optimizations are of high quality. In fact, my{' '}
           <Link href="https://github.com/100BC/nextjs-template">
             <a>NextJS template repo</a>
           </Link>{' '}
@@ -31,15 +31,15 @@ const Biography = () => {
           sites have a perfect score on Google Lighthouse.
         </p>
         <p>
-          I enjoy learning new technologies to add to my tech stack. Recently I delved into backend
-          development in order to create a GraphQL server for{' '}
+          I enjoy expanding my knowledge and adding new tools and frameworks to my tech stack.
+          Recently I delved into backend development in order to create a GraphQL server for{' '}
           <Link href="https://www.mooseical.com/">
             <a>mooseical.com</a>
           </Link>
-          . For that project I taught myself Docker, ExpressJS, Prisma 2, and GraphQL (URQL client,
-          Nexus Backend). I am always eager to expand my tech stack; At the start of COVID-19
-          pandemic I taught myself NextJS, TypeScript, and SCSS. Up next, I shall be learning Redis,
-          NGINX, VueJS and Angular.
+          . The project required familiarizing myself in Docker, ExpressJS, Prisma 2, and GraphQL
+          (URQL client, Nexus Backend). I am always eager to expand my tech stack; At the start of
+          COVID-19 pandemic I honed my skills in NextJS (React), TypeScript, and SCSS. Up next, I
+          shall be learning Redis, NGINX, VueJS and Angular.
         </p>
         <p>
           I have knowledge in the following CSS frameworks: Bootstrap, Material-UI and TailwindCSS.
