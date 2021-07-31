@@ -8,12 +8,7 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={styles.desktopNav}>
         <Link href="/">
-          <a title="Home">NextJS starter Kit</a>
-        </Link>
-      </nav>
-      <nav className={styles.mobileNav}>
-        <Link href="/">
-          <a title="Home">Home</a>
+          <a title="Overview">Overview</a>
         </Link>
       </nav>
     </header>
