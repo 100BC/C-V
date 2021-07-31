@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 import Layout from '@components/Layout';
 import styles from '@styles/workExperience.module.scss';
-import WorkExperience from '@components/WorkExperience/WorkExperience';
-import PersonalProjects from '@components/WorkExperience/PersonalProjects';
-import UniProjects from '@components/WorkExperience/UniProjects';
+import WorkExperience from '@components/WorkExperienceRender/WorkExperience';
+import PersonalProjects from '@components/WorkExperienceRender/PersonalProjects';
+import UniProjects from '@components/WorkExperienceRender/UniProjects';
 
 const WorkExperiencePage = () => {
   const [filter, setFilter] = useState(0);
