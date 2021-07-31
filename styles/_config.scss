@@ -5,7 +5,7 @@
   --font-color: hsl(0, 0%, 0%);
 
   @media (prefers-color-scheme: dark) {
-    --background-color: hsl(0, 0%, 21%);
+    --background-color: hsl(260, 6%, 20%);
     --font-color: hsl(0, 0%, 100%);
   }
 }
@@ -47,8 +47,7 @@ time {
 }
 
 h1 {
-  margin-bottom: 3rem;
-  border-bottom: $purple-400 6px solid;
+  border-bottom: $blue-400 6px solid;
   font-size: 7rem;
 }
 
@@ -56,8 +55,8 @@ hr {
   width: 100%;
   max-width: 400px;
   height: 2px;
-  background: $purple-400;
-  color: $purple-400;
+  background: $blue-400;
+  color: $blue-400;
 }
 
 main {
@@ -82,7 +81,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    text-shadow: 0 0 1px $black;
+    text-shadow: 0 0 1px var(--font-color);
   }
 }
 
@@ -92,7 +91,7 @@ button {
   color: inherit;
 
   &:hover {
-    color: $purple-200;
+    text-shadow: 0 0 1px var(--font-color);
   }
 }
 

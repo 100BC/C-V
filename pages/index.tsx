@@ -9,8 +9,8 @@ import TechStackItem from '@components/TechStackItem';
 const Home = () => {
   return (
     <Layout noIndex className={styles.home}>
+      <h1>Otman Maowed</h1>
       <section>
-        <h1>Otman Maowed</h1>
         <div className={styles.info}>
           <Image
             src="/images/otman.png"
@@ -118,6 +118,27 @@ const Home = () => {
             <Link href="https://www.bbrosfinishing.ca">
               <a>B.Bros Finishing</a>
             </Link>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Links</h2>
+        <hr />
+        <ul className={styles.work}>
+          <li>
+            <TechStackItem
+              src="/images/github.png"
+              brand="GitHub"
+              link="https://github.com/100BC"
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/linkedin.png"
+              brand="LinkedIn"
+              link="https://www.linkedin.com/in/omaowed/"
+              width={56.4}
+            />
           </li>
         </ul>
       </section>
