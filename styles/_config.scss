@@ -23,14 +23,8 @@ html {
 }
 
 body {
-  background: rgb(23, 0, 36);
-  background: linear-gradient(
-    145deg,
-    rgba(23, 0, 36, 1) 0%,
-    rgba(85, 9, 121, 1) 35%,
-    rgba(37, 111, 197, 1) 80%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: #000;
+  background-image: url('/images/bg.gif');
   color: var(--font-color);
   font-family: 'Roboto', sans-serif;
 }
