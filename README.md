@@ -1,4 +1,4 @@
-# C-V
+# CV
 
 Online CV for Otman Maowed, a Frontend Developer based in Canada
 
