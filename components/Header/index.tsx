@@ -7,7 +7,7 @@ const Header = () => {
   const [headerDark, setHeaderDark] = useState(false);
 
   const listenScrollEvent = () => {
-    if (window.scrollY > 73) {
+    if (window.scrollY > 40) {
       return setHeaderDark(true);
     }
     return setHeaderDark(false);

@@ -8,11 +8,11 @@ const WorkExperience = () => {
       <WorkExperienceItem
         title="Buddytree"
         address="Remote"
-        jobTitle="Front-End Developer Contractor"
+        jobTitle="Web Developer"
         time="Feb.&nbsp;2021 - Present"
         links={[{ href: 'https://buddytree.org/', name: 'buddytree.org' }]}
       >
-        <li>Developing and maintaining the entirety of the front-end</li>
+        <li>Developing and maintaining the entirety of the front-end codebase</li>
         <li>NextJS (ReactJS) framework used for the codebase</li>
         <li>Utilizing Redux-Toolkit for global state management</li>
         <li>Configured Next Auth for user authentication</li>

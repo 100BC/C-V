@@ -141,18 +141,18 @@ const Home = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.mooseical.com">
-              <a>
-                Mooseical
-                <div>Personal Project</div>
-              </a>
-            </Link>
-          </li>
-          <li>
             <Link href="https://www.bbrosfinishing.ca">
               <a>
                 B.Bros Finishing
                 <div>Freelance Work</div>
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.mooseical.com">
+              <a>
+                Mooseical
+                <div>Personal Project</div>
               </a>
             </Link>
           </li>

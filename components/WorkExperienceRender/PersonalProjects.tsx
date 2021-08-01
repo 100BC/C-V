@@ -11,18 +11,16 @@ const PersonalProjects = () => {
         time="Oct.&nbsp;2020 - Present"
         links={[
           { href: 'https://www.mooseical.com/', name: 'mooseical.com' },
-          { href: 'https://mooseical-server.herokuapp.com/graphql', name: 'graphql playground' },
+          { href: 'https://mooseical-server.herokuapp.com/graphql', name: 'GraphQL playground' },
         ]}
       >
         <li>Passion project that showcases the database of underground Canadian musicians</li>
-        <li>
-          Users are able to find musicians and albums based on location and genre, respectively
-        </li>
+        <li>Users can find musicians and albums based on location and genre, respectively</li>
         <li>Front-End built with NextJS, TypeScript, and SCSS</li>
-        <li>Created a custom Graphql Express server with Prisma 2 ORM</li>
+        <li>Created a custom GraphQL Express server with Prisma 2 ORM</li>
         <li>Docker was used to containerize the NodeJS server and PostgreSQL database</li>
         <li>Nexus Schema manages the backend schema</li>
-        <li>URQL handles the client side Graphql</li>
+        <li>URQL handles the client side GraphQL</li>
         <li>Uploaded Images are compressed and resized and uploaded to Google Firebase Storage</li>
         <li>Firebase Firestore and Google ReCaptcha are used to manage user forms</li>
         <li>SEO optimizations including Open Graph Protocol</li>
