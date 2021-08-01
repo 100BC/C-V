@@ -44,7 +44,7 @@ const Biography = () => {
         </p>
         <p>
           I have knowledge in the following CSS frameworks: Bootstrap, Material-UI and TailwindCSS.
-          However, my competence in vanilla css results in quicker styling and designing over using
+          However, my competence in vanilla CSS results in quicker styling and designing over using
           a framework.
         </p>
         <p>
