@@ -10,13 +10,11 @@ const Biography = () => {
       <h1>Biography</h1>
       <section className={styles.section}>
         <h2>Education</h2>
-        <p>
-          BSc. Computing Science, Sociology Minor
-          <br />
-          University of Alberta, Class of 2020
-          <br />
-          3.5/4 Final Year GPA
-        </p>
+        <ul>
+          <li>BSc. Computing Science, Sociology Minor</li>
+          <li>University of Alberta, Class of 2020</li>
+          <li>3.5/4 Final Year GPA, 2020 Dean&apos;s Honour Roll</li>
+        </ul>
       </section>
       <section className={styles.section}>
         <h2>Professional Information</h2>

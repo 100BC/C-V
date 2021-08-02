@@ -3,6 +3,11 @@
 .section {
   @extend %section-page-template;
 
+  > ul {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
   > a {
     display: block;
     margin: 2rem 0;
