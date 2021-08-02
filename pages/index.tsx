@@ -69,7 +69,7 @@ const Home = () => {
             />
           </li>
           <li>
-            <TechStackItem src="/images/react.png" brand="React" link="https://reactjs.org/" />
+            <TechStackItem src="/images/react.png" brand="ReactJS" link="https://reactjs.org/" />
           </li>
           <li>
             <TechStackItem
@@ -110,7 +110,7 @@ const Home = () => {
           <li>
             <TechStackItem
               src={isDarkMode ? '/images/prisma-light.png' : '/images/prisma.png'}
-              brand="Prisma 2"
+              brand="Prisma"
               link="https://www.prisma.io/"
               width={40}
             />
@@ -121,6 +121,14 @@ const Home = () => {
               brand="Docker"
               link="https://www.docker.com/"
               height={34.5}
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/redis-cube.png"
+              brand="Redis"
+              link="https://redis.io/"
+              height={41}
             />
           </li>
         </ul>

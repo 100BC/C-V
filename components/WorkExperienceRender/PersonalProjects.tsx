@@ -18,7 +18,8 @@ const PersonalProjects = () => {
         <li>Users can find musicians and albums based on location and genre, respectively</li>
         <li>Front-End built with NextJS, TypeScript, and SCSS</li>
         <li>Created a custom GraphQL Express server with Prisma 2 ORM</li>
-        <li>Docker was used to containerize the NodeJS server and PostgreSQL database</li>
+        <li>Server caching is handled by Redis</li>
+        <li>Docker was used to containerize the Redis and PostgreSQL databases</li>
         <li>Nexus Schema manages the backend schema</li>
         <li>URQL handles the client side GraphQL</li>
         <li>Uploaded Images are compressed and resized and uploaded to Google Firebase Storage</li>

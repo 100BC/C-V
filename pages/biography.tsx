@@ -34,10 +34,10 @@ const Biography = () => {
           <Link href="https://www.mooseical.com/">
             <a>mooseical.com</a>
           </Link>
-          . The project required familiarizing myself in Docker, ExpressJS, Prisma 2, and GraphQL
-          (URQL client, Nexus Backend). I am always eager to expand my tech stack; At the start of
-          COVID-19 pandemic I honed my skills in NextJS (React), TypeScript, and SCSS. Up next, I
-          shall be learning Redis, NGINX, VueJS and Angular.
+          . The project required familiarizing myself in Docker, Redis, ExpressJS, Prisma 2, and
+          GraphQL (URQL client, Nexus Backend). I am always eager to expand my tech stack; At the
+          start of COVID-19 pandemic I honed my skills in NextJS (React), TypeScript, and SCSS. Up
+          next, I shall be learning NGINX, VueJS and Angular.
         </p>
         <p>
           I have knowledge in the following CSS frameworks: Bootstrap, Material-UI and TailwindCSS.
