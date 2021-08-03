@@ -25,7 +25,7 @@ const UniProjects = () => {
         title="Indigenous AR Learning Experience"
         address="CMPUT 399 - Independent Study"
         jobTitle="Creator / Researcher"
-        time="Jan. - Apr.&nbsp;2020"
+        time="Sep.&nbsp;2019 - Apr.&nbsp;2020"
       >
         <li>Enrolled in a independent study/research with Dr.Demmans Epp</li>
         <li>

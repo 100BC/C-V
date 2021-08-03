@@ -20,7 +20,7 @@ const PersonalProjects = () => {
         <li>Created a custom GraphQL Express server with Prisma 2 ORM</li>
         <li>Server caching is handled by Redis</li>
         <li>Docker was used to containerize the Redis and PostgreSQL databases</li>
-        <li>Nexus Schema manages the backend schema</li>
+        <li>Nexus Schema manages the backend GraphQL schema</li>
         <li>URQL handles the client side GraphQL</li>
         <li>Uploaded Images are compressed and resized and uploaded to Google Firebase Storage</li>
         <li>Firebase Firestore and Google ReCaptcha are used to manage user forms</li>

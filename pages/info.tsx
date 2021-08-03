@@ -37,7 +37,7 @@ const Info = () => {
           . The project required familiarizing myself in Docker, Redis, ExpressJS, Prisma 2, and
           GraphQL (URQL client, Nexus Backend). I am always eager to expand my tech stack; At the
           start of COVID-19 pandemic I honed my skills in NextJS (React), TypeScript, and SCSS. Up
-          next, I shall be learning NGINX, VueJS and Angular.
+          next, I shall be learning NGINX, VueJS and Shopify.
         </p>
         <p>
           I have knowledge in the following CSS frameworks: Bootstrap, Material-UI and TailwindCSS.
@@ -47,7 +47,8 @@ const Info = () => {
         <p>
           My university education focused substantially on Human-Computer Interaction. I
           participated in independent studies to expand my experience and knowledge in the field.
-          Personally, User experience and accessibility are major factors while developing websites.
+          Personally, user experience and accessibility are major considerations when developing
+          websites.
         </p>
       </section>
       <section className={styles.section}>

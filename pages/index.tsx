@@ -36,7 +36,7 @@ const Home = () => {
           />
           <ul>
             <li>Web Developer</li>
-            <li>BSc. Computing Science</li>
+            <li>BSc. Computer Science</li>
             <li>University of Alberta, 2020</li>
             <li>Alberta, Canada</li>
           </ul>
