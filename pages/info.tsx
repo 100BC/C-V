@@ -4,10 +4,10 @@ import Link from 'next/link';
 import Layout from '@components/Layout';
 import styles from '@styles/about.module.scss';
 
-const Biography = () => {
+const Info = () => {
   return (
     <Layout noIndex title="Otman Maowed | Biography">
-      <h1>Biography</h1>
+      <h1>Information</h1>
       <section className={styles.section}>
         <h2>Education</h2>
         <ul>
@@ -76,4 +76,4 @@ const Biography = () => {
   );
 };
 
-export default Biography;
+export default Info;

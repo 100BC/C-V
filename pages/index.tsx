@@ -16,8 +16,8 @@ const Home = () => {
     <Layout noIndex className={styles.home}>
       <h1>Otman Maowed</h1>
       <div className={styles.links}>
-        <Link href="mailto:omaowed1@gmail.com">
-          <a>Email: omaowed1@gmail.com</a>
+        <Link href="mailto:web@otman.dev">
+          <a>Email: web@otman.dev</a>
         </Link>
         <Link href="https://drive.google.com/open?id=1pvT4qTGDJDJboUDofdFPO-7-w8e5tc8A">
           <a>Download my Résumé</a>
@@ -43,9 +43,11 @@ const Home = () => {
         </div>
       </section>
       <section className={styles.techStack}>
-        <h2>Tech Stack</h2>
+        <h2>Main Tech Stack</h2>
         <hr />
-        <div className={styles.readMore}>Programming Tools and Frameworks I specialize in</div>
+        <Link href="/tech-stack">
+          <a className={styles.readMore}>See all frameworks and tools I use &rArr;</a>
+        </Link>
         <ul>
           <li>
             <TechStackItem
@@ -55,35 +57,7 @@ const Home = () => {
             />
           </li>
           <li>
-            <TechStackItem
-              src="/images/js.png"
-              brand="JavaScript"
-              link="https://www.javascript.com/"
-            />
-          </li>
-          <li>
-            <TechStackItem
-              src={isDarkMode ? '/images/nextjs-light.png' : '/images/nextjs-icon-dark.png'}
-              brand="NextJS"
-              link="https://nextjs.org/"
-            />
-          </li>
-          <li>
             <TechStackItem src="/images/react.png" brand="ReactJS" link="https://reactjs.org/" />
-          </li>
-          <li>
-            <TechStackItem
-              src="/images/redux.png"
-              brand="Redux"
-              link="https://redux.js.org/"
-              height={43}
-            />
-          </li>
-          <li>
-            <TechStackItem src="/images/sass.png" brand="SASS" link="https://sass-lang.com/" />
-          </li>
-          <li>
-            <TechStackItem src="/images/postcss.png" brand="PostCSS" link="https://postcss.org/" />
           </li>
           <li>
             <TechStackItem
@@ -93,43 +67,7 @@ const Home = () => {
             />
           </li>
           <li>
-            <TechStackItem
-              src="/images/express.png"
-              brand="ExpressJS"
-              link="https://expressjs.com/"
-            />
-          </li>
-          <li>
-            <TechStackItem
-              src="/images/firebase.png"
-              brand="Firebase"
-              link="https://firebase.google.com/"
-              width={35}
-            />
-          </li>
-          <li>
-            <TechStackItem
-              src={isDarkMode ? '/images/prisma-light.png' : '/images/prisma.png'}
-              brand="Prisma"
-              link="https://www.prisma.io/"
-              width={40}
-            />
-          </li>
-          <li>
-            <TechStackItem
-              src="/images/docker.png"
-              brand="Docker"
-              link="https://www.docker.com/"
-              height={34.5}
-            />
-          </li>
-          <li>
-            <TechStackItem
-              src="/images/redis-cube.png"
-              brand="Redis"
-              link="https://redis.io/"
-              height={41}
-            />
+            <TechStackItem src="/images/sass.png" brand="SASS" link="https://sass-lang.com/" />
           </li>
         </ul>
       </section>

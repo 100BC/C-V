@@ -25,11 +25,14 @@ const Header = () => {
         <Link href="/">
           <a title="Overview">Overview</a>
         </Link>
-        <Link href="/work-experience?page=0">
-          <a title="Work Experience">Work Experience</a>
+        <Link href="/tech-stack">
+          <a title="Tech Stack">Tech</a>
         </Link>
-        <Link href="/biography">
-          <a title="Work Experience">Biography</a>
+        <Link href="/work-experience?page=0">
+          <a title="Work Experience">Experience</a>
+        </Link>
+        <Link href="/info">
+          <a title="Information">Info</a>
         </Link>
       </nav>
     </header>
