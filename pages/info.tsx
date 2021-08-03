@@ -30,14 +30,14 @@ const Info = () => {
         </p>
         <p>
           I enjoy expanding my knowledge and adding new tools and frameworks to my tech stack.
-          Recently I delved into backend development in order to create a GraphQL server for{' '}
+          Recently I delved into back-end development in order to create a GraphQL server for{' '}
           <Link href="https://www.mooseical.com/">
             <a>mooseical.com</a>
           </Link>
           . The project required familiarizing myself in Docker, Redis, ExpressJS, Prisma 2, and
-          GraphQL (URQL client, Nexus Backend). I am always eager to expand my tech stack; At the
-          start of COVID-19 pandemic I honed my skills in NextJS (React), TypeScript, and SCSS. Up
-          next, I shall be learning NGINX, VueJS and Shopify.
+          GraphQL (URQL on client, Nexus Schema for back-end). I am always eager to expand my tech
+          stack; At the start of COVID-19 pandemic I honed my skills in NextJS (React), TypeScript,
+          and SCSS. Up next, I shall be learning VueJS and Shopify.
         </p>
         <p>
           I have knowledge in the following CSS frameworks: Bootstrap, Material-UI and TailwindCSS.
