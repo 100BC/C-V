@@ -119,7 +119,7 @@ const Home = () => {
             <TechStackItem
               src="/images/linkedin.png"
               brand="LinkedIn"
-              link="https://www.linkedin.com/in/omaowed/"
+              link="https://www.linkedin.com/in/otman-dev/"
               width={56.4}
             />
           </li>

@@ -31,7 +31,6 @@ const PersonalProjects = () => {
           100% Score in Performance, Accessibility, Best Practices, and SEO in Google Lighthouse
           score
         </li>
-        <li>Went live in Feb. 2021</li>
       </WorkExperienceItem>
       <WorkExperienceItem
         title="nextjs template"
@@ -64,11 +63,9 @@ const PersonalProjects = () => {
         links={[{ href: 'https://github.com/100BC/cv/', name: 'Source Code' }]}
       >
         <li>Built with NextJS and TypeScript</li>
-        <li>Created to better show my skills in usability, design, and programming</li>
-        <li>Conducted user evaluations during development process to gather improvement ideas</li>
+        <li>Created to better showcase my work, achievements and skill set</li>
         <li>Follows Responsive Web Design and has automatic dark theme based on user preference</li>
         <li>This website receives continuous updates to improve usability and update technology</li>
-        <li>Originally built with create-react-app</li>
       </WorkExperienceItem>
     </>
   );
