@@ -19,14 +19,15 @@ const Info = () => {
       <section className={styles.section}>
         <h2>Professional Information</h2>
         <p>
-          I am a Web Developer that specializes in Front-End technologies. I have high personal
-          standards when creating sites; I always ensure that the user experience, usability, time
-          to first byte and search engine optimizations are of high quality. In fact, my{' '}
+          I am a Web Developer with Full-Stack knowledge that primarily specializes in Front-End
+          technologies. I have high personal standards when creating sites; I always ensure that the
+          user experience, usability, time to first byte and search engine optimizations are of high
+          quality. In fact, my{' '}
           <Link href="https://github.com/100BC/nextjs-template">
             <a>NextJS template repo</a>
           </Link>{' '}
-          already comes with SEO pre-configured to be easily added to any website, and why a lot my
-          sites have a perfect score on Google Lighthouse.
+          already comes with SEO pre-configured to be easily added to any website, and why a lot of
+          my sites have a perfect score on Google Lighthouse (where applicable).
         </p>
         <p>
           I enjoy expanding my knowledge and adding new tools and frameworks to my tech stack.
@@ -35,9 +36,9 @@ const Info = () => {
             <a>mooseical.com</a>
           </Link>
           . The project required familiarizing myself in Docker, Redis, ExpressJS, Prisma 2, and
-          GraphQL (URQL on client, Nexus Schema for back-end). I am always eager to expand my tech
-          stack; At the start of COVID-19 pandemic I honed my skills in NextJS (React), TypeScript,
-          and SCSS. Up next, I shall be learning VueJS and Shopify.
+          GraphQL (URQL on client, Nexus Schema for the back-end). I am always eager to expand my
+          tech stack; At the start of COVID-19 pandemic I honed my skills in NextJS (React),
+          TypeScript, and SCSS. Up next, I shall be learning VueJS and Shopify.
         </p>
         <p>
           I have knowledge in the following CSS frameworks: Bootstrap, Material-UI and TailwindCSS.
