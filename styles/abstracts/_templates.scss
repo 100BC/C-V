@@ -1,0 +1,14 @@
+@use './themes' as *;
+
+%section-page-template {
+  text-align: start;
+
+  &:last-child {
+    padding: 0;
+  }
+
+  > h2 {
+    border-bottom: 4px solid $blue-300;
+    font-size: 4rem;
+  }
+}
