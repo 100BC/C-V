@@ -24,7 +24,7 @@ const PersonalProjects = () => {
         <li>URQL handles the client side GraphQL</li>
         <li>Uploaded Images are compressed and resized and uploaded to Google Firebase Storage</li>
         <li>Firebase Firestore and Google ReCaptcha are used to manage user forms</li>
-        <li>SEO optimizations including Open Graph Protocol</li>
+        <li>SEO optimizations including Open Graph Protocol and Twitter Cards</li>
         <li>Extensive testing is done to reduce time to first byte</li>
         <li>Ensured responsive design, image and code optimizations</li>
         <li>
@@ -43,8 +43,8 @@ const PersonalProjects = () => {
           pre-configured
         </li>
         <li>
-          The repo comes with easy SEO management including Open Graph Protocol via the Layout
-          component
+          The repo comes with easy SEO management including Open Graph Protocol and Twitter Cards
+          via the Layout component
         </li>
         <li>
           The stylesheets contain Normalize.css and my own rules to ensure quick startup without
