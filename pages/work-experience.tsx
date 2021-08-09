@@ -19,7 +19,7 @@ const WorkExperiencePage = () => {
   }, [activePage, router]);
 
   return (
-    <Layout noIndex title="Otman Maowed | Work Experience">
+    <Layout noIndex canonicalUrlPath="/work-experience" title="Otman Maowed | Work Experience">
       <h1>Work Experience</h1>
       <nav className={styles.nav}>
         <Link href="/work-experience?page=0">

@@ -6,7 +6,7 @@ import styles from '@styles/about.module.scss';
 
 const Info = () => {
   return (
-    <Layout noIndex title="Otman Maowed | Biography">
+    <Layout noIndex title="Otman Maowed | Biography" canonicalUrlPath="/info">
       <h1>Information</h1>
       <section className={styles.section}>
         <h2>Education</h2>
