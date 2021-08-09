@@ -11,7 +11,12 @@ const Tech = () => {
       : false;
 
   return (
-    <Layout noIndex canonicalUrlPath="/tech-stack" className={styles.tech}>
+    <Layout
+      title="Otman Maowed | Tech Stack"
+      noIndex
+      canonicalUrlPath="/tech-stack"
+      className={styles.tech}
+    >
       <h1>Tech Stack</h1>
       <section>
         <h2>Languages</h2>
