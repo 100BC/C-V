@@ -22,9 +22,9 @@
 
     > li {
       margin: 2rem;
-      list-style: square;
-      font-weight: bold;
       font-size: 3rem;
+      font-weight: bold;
+      list-style: square;
     }
 
     > li::marker {
@@ -51,8 +51,8 @@
 
   > li {
     margin: 2rem;
-    font-weight: 300;
     font-size: 3rem;
+    font-weight: 300;
 
     div {
       font-size: 1.6rem;

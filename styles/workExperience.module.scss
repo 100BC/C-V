@@ -10,12 +10,12 @@
   > a {
     width: fit-content;
     padding: 0;
-    color: inherit;
     font-size: 2.6rem;
+    color: inherit;
   }
 
   .active {
-    border-bottom: $blue-300 4px solid;
     font-weight: bolder;
+    border-bottom: $blue-300 4px solid;
   }
 }
