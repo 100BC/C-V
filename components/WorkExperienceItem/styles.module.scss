@@ -12,8 +12,8 @@
       display: block;
       width: fit-content;
       margin: 1rem 0;
-      color: $blue-200;
       font-style: normal;
+      color: $blue-200;
     }
 
     > a:hover {
@@ -27,9 +27,9 @@
     > li {
       max-width: 50ch;
       padding: 0.5rem 0;
-      list-style: square;
       font-size: 2rem;
       line-height: 3rem;
+      list-style: square;
     }
 
     > li::marker {
