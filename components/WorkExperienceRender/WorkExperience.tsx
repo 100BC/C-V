@@ -9,30 +9,29 @@ const WorkExperience = () => {
         title="Buddytree"
         address="Remote"
         jobTitle="Web Developer"
-        time="Feb.&nbsp;2021 - Present"
+        time="Feb.&nbsp;2021 - Sep.&nbsp;2021"
         links={[{ href: 'https://buddytree.org/', name: 'buddytree.org' }]}
       >
-        <li>Developing and maintaining the entirety of the front-end codebase</li>
+        <li>Developed and maintained the entirety of the front-end codebase</li>
         <li>NextJS (ReactJS) framework used for the codebase</li>
-        <li>Utilizing Redux-Toolkit for global state management</li>
+        <li>Utilized Redux-Toolkit for global state management</li>
         <li>Configured Next Auth for user authentication</li>
         <li>
-          Coordinate with back-end developer and systems engineer in order to implement new features
-          and services
+          Coordinated with back-end developer and systems engineer in order to implement new
+          features and services
         </li>
         <li>Collaborated with another web developer during the initial months of the project</li>
         <li>
-          Creating and styling pages that follow responsive design, and taking advantage of CSS
+          Created and styled pages that follow responsive design, and taking advantage of CSS
           modules
         </li>
         <li>Followed the Figma designs provided by the CEO and the designer</li>
         <li>
-          Work closely with the CEO and Project Manager to ensure the vision is met in a timely
+          Worked closely with the CEO and Project Manager to ensure the vision is met in a timely
           manner
         </li>
         <li>
-          Managing and educating university interns in React, and front-end development best
-          practices
+          Managed and educated university interns in React, and front-end development best practices
         </li>
       </WorkExperienceItem>
       <WorkExperienceItem

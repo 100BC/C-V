@@ -82,7 +82,7 @@ const Home = () => {
             <Link href="https://www.buddytree.org">
               <a>
                 Buddytree
-                <div>Current Employer</div>
+                <div>Past Employer</div>
               </a>
             </Link>
           </li>
