@@ -12,8 +12,7 @@
     ".stylelintrc.json",
     "package.json",
     "next.config.js",
-    ".env.local",
-    "styles/_normalize.scss"
+    ".env.local"
   ],
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#6169e0",
