@@ -17,7 +17,7 @@ const PersonalProjects = () => {
         <li>Passion project that showcases the database of underground Canadian musicians</li>
         <li>Users can find musicians and albums based on location and genre, respectively</li>
         <li>Front-End built with NextJS, TypeScript, and SCSS</li>
-        <li>Created a custom GraphQL Express server with Prisma 2 ORM</li>
+        <li>Created a custom GraphQL Express server with Prisma ORM</li>
         <li>Server caching is handled by Redis</li>
         <li>Docker was used to containerize the Redis and PostgreSQL databases</li>
         <li>Nexus Schema manages the back-end GraphQL schema</li>
