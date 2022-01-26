@@ -80,6 +80,13 @@ const Tech = () => {
               link="https://postcss.org/"
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/images/mui.png"
+              brand="MUI"
+              link="https://mui.com/"
+            />
+          </li>
         </ul>
       </section>
       <section>
