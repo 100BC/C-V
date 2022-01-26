@@ -6,6 +6,24 @@ const WorkExperience = () => {
   return (
     <>
       <WorkExperienceItem
+        title="Interface Fluidics"
+        address="Edmonton / Remote"
+        jobTitle="React Developer"
+        time="Oct.&nbsp;2021 - Jan.&nbsp;2022"
+        links={[{ href: 'https://www.interfacefluidics.com/', name: 'interfacefluidics.com' }]}
+      >
+        <li>Designed and created a customer facing React portal</li>
+        <li>
+          Refactored the internal portal with up to date React, react-router and Material UI
+          standards
+        </li>
+        <li>
+          Provided and implemented new designs for the portal to improve look and feel, usability,
+          and navigation
+        </li>
+        <li>Utilized GraphQL and Apollo Client to connect the front-end and the API</li>
+      </WorkExperienceItem>
+      <WorkExperienceItem
         title="Buddytree"
         address="Remote"
         jobTitle="Web Developer"

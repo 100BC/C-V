@@ -79,18 +79,18 @@ const Home = () => {
         </Link>
         <ul className={styles.work}>
           <li>
-            <Link href="https://www.buddytree.org">
+            <Link href="https://www.interfacefluidics.com/">
               <a>
-                Buddytree
-                <div>Past Employer</div>
+                Interface Fluidics
+                <div>Previous Work</div>
               </a>
             </Link>
           </li>
           <li>
-            <Link href="https://www.bbrosfinishing.ca">
+            <Link href="https://www.buddytree.org">
               <a>
-                B.Bros Finishing
-                <div>Freelance Work</div>
+                Buddytree
+                <div>Past Employer</div>
               </a>
             </Link>
           </li>
