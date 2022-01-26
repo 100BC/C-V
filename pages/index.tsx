@@ -111,10 +111,10 @@ const Home = () => {
           </li>
         </ul>
       </section>
-      <section>
+      <section className={styles.techStack}>
         <h2>Links</h2>
         <hr />
-        <ul className={styles.work}>
+        <ul>
           <li>
             <TechStackItem
               src="/images/github.png"
