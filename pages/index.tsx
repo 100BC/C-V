@@ -89,7 +89,7 @@ const Home = () => {
             <Link href="https://www.interfacefluidics.com/">
               <a>
                 Interface Fluidics
-                <div>Previous Work</div>
+                <div>Previous Employer</div>
               </a>
             </Link>
           </li>
