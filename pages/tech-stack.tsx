@@ -51,13 +51,21 @@ const Tech = () => {
         <ul>
           <li>
             <TechStackItem
-              src={isDarkMode ? '/images/nextjs-light.png' : '/images/nextjs-icon-dark.png'}
+              src={
+                isDarkMode
+                  ? '/images/nextjs-light.png'
+                  : '/images/nextjs-icon-dark.png'
+              }
               brand="NextJS"
               link="https://nextjs.org/"
             />
           </li>
           <li>
-            <TechStackItem src="/images/react.png" brand="ReactJS" link="https://reactjs.org/" />
+            <TechStackItem
+              src="/images/react.png"
+              brand="ReactJS"
+              link="https://reactjs.org/"
+            />
           </li>
           <li>
             <TechStackItem
@@ -68,10 +76,18 @@ const Tech = () => {
             />
           </li>
           <li>
-            <TechStackItem src="/images/sass.png" brand="SASS" link="https://sass-lang.com/" />
+            <TechStackItem
+              src="/images/sass.png"
+              brand="SASS"
+              link="https://sass-lang.com/"
+            />
           </li>
           <li>
-            <TechStackItem src="/images/postcss.png" brand="PostCSS" link="https://postcss.org/" />
+            <TechStackItem
+              src="/images/postcss.png"
+              brand="PostCSS"
+              link="https://postcss.org/"
+            />
           </li>
         </ul>
       </section>
@@ -96,7 +112,9 @@ const Tech = () => {
           </li>
           <li>
             <TechStackItem
-              src={isDarkMode ? '/images/prisma-light.png' : '/images/prisma.png'}
+              src={
+                isDarkMode ? '/images/prisma-light.png' : '/images/prisma.png'
+              }
               brand="Prisma"
               link="https://www.prisma.io/"
               width={40}

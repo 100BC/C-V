@@ -17,8 +17,13 @@ const UniProjects = () => {
           },
         ]}
       >
-        <li>Created a Social Media Web App, this.node.app, as part of the class project</li>
-        <li>this.node.app was developed in a team of 5 with ReactJS and Django</li>
+        <li>
+          Created a Social Media Web App, this.node.app, as part of the class
+          project
+        </li>
+        <li>
+          this.node.app was developed in a team of 5 with ReactJS and Django
+        </li>
         <li>Implemented React Redux and many API calls to the database</li>
       </WorkExperienceItem>
       <WorkExperienceItem
@@ -29,12 +34,12 @@ const UniProjects = () => {
       >
         <li>Enrolled in a independent study/research with Dr.Demmans Epp</li>
         <li>
-          Created an Augmented Reality Tour via the app izi.Travel The tour highlights Indigenous
-          art and landmarks on University of Alberta
+          Created an Augmented Reality Tour via the app izi.Travel The tour
+          highlights Indigenous art and landmarks on University of Alberta
         </li>
         <li>
-          Followed a participatory design approach to ensure that the Indigenous culture is properly
-          represented
+          Followed a participatory design approach to ensure that the Indigenous
+          culture is properly represented
         </li>
         <li>Improved the tour based on user feedback of 45 individuals</li>
       </WorkExperienceItem>
@@ -56,11 +61,14 @@ const UniProjects = () => {
       >
         <li>Studied the basics of UI/UX in lectures, including UX Research</li>
         <li>
-          Final project consisted of creating a medium-fidelity prototype of an advisory system
+          Final project consisted of creating a medium-fidelity prototype of an
+          advisory system
         </li>
         <li>Worked in a team of 5 to create MyAdvisor in Adobe XD</li>
         <li>Conducted heuristic and user evaluations while prototyping</li>
-        <li>Maintained the style and theme presented by other university websites</li>
+        <li>
+          Maintained the style and theme presented by other university websites
+        </li>
       </WorkExperienceItem>
       <WorkExperienceItem
         title="Alexandria"
@@ -78,11 +86,15 @@ const UniProjects = () => {
           },
         ]}
       >
-        <li>Created an Android App, Alexandria, as part of the class project</li>
+        <li>
+          Created an Android App, Alexandria, as part of the class project
+        </li>
         <li>Alexandria was developed with Java in Android Studio</li>
         <li>Worked in a team of 6, following scrum practices</li>
         <li>Lead the creation of the UI with Adobe XD</li>
-        <li>Opted for a cozy theme to match the book sharing aspect of the App</li>
+        <li>
+          Opted for a cozy theme to match the book sharing aspect of the App
+        </li>
         <li>Programmed the majority of the Front-End code</li>
       </WorkExperienceItem>
       <WorkExperienceItem
@@ -102,10 +114,16 @@ const UniProjects = () => {
         ]}
       >
         <li>
-          Created ‘Canned’, a stealth video game in a team of six as part of the class project
+          Created ‘Canned’, a stealth video game in a team of six as part of the
+          class project
         </li>
-        <li>Built with GameMaker Studio using GML, a C and JavaScript like language </li>
-        <li>Recipient of the Game of the Year, and the Technical Achievement Award</li>
+        <li>
+          Built with GameMaker Studio using GML, a C and JavaScript like
+          language{' '}
+        </li>
+        <li>
+          Recipient of the Game of the Year, and the Technical Achievement Award
+        </li>
         <li>Scripted player controls and the behavioural AI of enemies</li>
         <li>Organized tasks and deadlines for team members</li>
         <li>Ensured the completion and quality of each milestone</li>

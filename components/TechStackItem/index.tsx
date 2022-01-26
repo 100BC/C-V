@@ -12,11 +12,23 @@ interface Props {
   height?: number;
 }
 
-const TechStackItem = ({ link, src, brand, width = 48, height = 48 }: Props) => {
+const TechStackItem = ({
+  link,
+  src,
+  brand,
+  width = 48,
+  height = 48,
+}: Props) => {
   return (
     <Link href={link}>
       <a className={styles.item}>
-        <Image src={src} layout="fixed" width={width} height={height} alt={`${brand} Logo"`} />
+        <Image
+          src={src}
+          layout="fixed"
+          width={width}
+          height={height}
+          alt={`${brand} Logo"`}
+        />
         &nbsp;{brand}
       </a>
     </Link>

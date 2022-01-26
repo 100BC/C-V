@@ -19,17 +19,27 @@ const WorkExperiencePage = () => {
   }, [activePage, router]);
 
   return (
-    <Layout noIndex canonicalUrlPath="/work-experience" title="Otman Maowed | Work Experience">
+    <Layout
+      noIndex
+      canonicalUrlPath="/work-experience"
+      title="Otman Maowed | Work Experience"
+    >
       <h1>Work Experience</h1>
       <nav className={styles.nav}>
         <Link href="/work-experience?page=0">
-          <a className={activePage === '0' ? styles.active : ''}>Work Experience</a>
+          <a className={activePage === '0' ? styles.active : ''}>
+            Work Experience
+          </a>
         </Link>
         <Link href="/work-experience?page=1">
-          <a className={activePage === '1' ? styles.active : ''}>Personal Projects</a>
+          <a className={activePage === '1' ? styles.active : ''}>
+            Personal Projects
+          </a>
         </Link>
         <Link href="/work-experience?page=2">
-          <a className={activePage === '2' ? styles.active : ''}>University Projects</a>
+          <a className={activePage === '2' ? styles.active : ''}>
+            University Projects
+          </a>
         </Link>
       </nav>
       <section>

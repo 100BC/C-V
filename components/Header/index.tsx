@@ -20,7 +20,11 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={[styles.header, `${headerDark ? styles.headerDark : ''}`].join(' ')}>
+    <header
+      className={[styles.header, `${headerDark ? styles.headerDark : ''}`].join(
+        ' '
+      )}
+    >
       <nav>
         <Link href="/">
           <a title="Overview">Overview</a>

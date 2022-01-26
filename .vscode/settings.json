@@ -11,7 +11,14 @@
   "editor.formatOnSave": true,
 
   // Code Spell Checker
-  "cSpell.words": ["Favourite", "MIXINS", "msapplication", "noindex", "preconnect", "stylelint"],
+  "cSpell.words": [
+    "Favourite",
+    "MIXINS",
+    "msapplication",
+    "noindex",
+    "preconnect",
+    "stylelint"
+  ],
   "cSpell.ignorePaths": [
     "node_modules",
     "yarn.lock",

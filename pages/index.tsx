@@ -46,7 +46,9 @@ const Home = () => {
         <h2>Main Tech Stack</h2>
         <hr />
         <Link href="/tech-stack">
-          <a className={styles.readMore}>See all frameworks and tools I use &rArr;</a>
+          <a className={styles.readMore}>
+            See all frameworks and tools I use &rArr;
+          </a>
         </Link>
         <ul>
           <li>
@@ -57,7 +59,11 @@ const Home = () => {
             />
           </li>
           <li>
-            <TechStackItem src="/images/react.png" brand="ReactJS" link="https://reactjs.org/" />
+            <TechStackItem
+              src="/images/react.png"
+              brand="ReactJS"
+              link="https://reactjs.org/"
+            />
           </li>
           <li>
             <TechStackItem
@@ -67,7 +73,11 @@ const Home = () => {
             />
           </li>
           <li>
-            <TechStackItem src="/images/sass.png" brand="SASS" link="https://sass-lang.com/" />
+            <TechStackItem
+              src="/images/sass.png"
+              brand="SASS"
+              link="https://sass-lang.com/"
+            />
           </li>
         </ul>
       </section>
@@ -75,7 +85,9 @@ const Home = () => {
         <h2>See My Work</h2>
         <hr />
         <Link href="/work-experience?page=0">
-          <a className={styles.readMore}>Read more about my work experience &rArr;</a>
+          <a className={styles.readMore}>
+            Read more about my work experience &rArr;
+          </a>
         </Link>
         <ul className={styles.work}>
           <li>
@@ -110,7 +122,9 @@ const Home = () => {
         <ul className={styles.work}>
           <li>
             <TechStackItem
-              src={isDarkMode ? '/images/github-light.png' : '/images/github.png'}
+              src={
+                isDarkMode ? '/images/github-light.png' : '/images/github.png'
+              }
               brand="GitHub"
               link="https://github.com/100BC"
             />

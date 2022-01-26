@@ -12,7 +12,14 @@ interface Props {
   children: ReactNode;
 }
 
-const WorkExperienceItem = ({ title, jobTitle, time, address, links, children }: Props) => {
+const WorkExperienceItem = ({
+  title,
+  jobTitle,
+  time,
+  address,
+  links,
+  children,
+}: Props) => {
   return (
     <div className={styles.experience}>
       <h2>{title}</h2>
