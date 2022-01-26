@@ -5,11 +5,6 @@ import TechStackItem from '@components/TechStackItem';
 import styles from '@styles/techStack.module.scss';
 
 const Tech = () => {
-  const isDarkMode =
-    typeof window !== 'undefined'
-      ? window.matchMedia('(prefers-color-scheme: dark)').matches
-      : false;
-
   return (
     <Layout
       title="Otman Maowed | Tech Stack"
@@ -51,11 +46,7 @@ const Tech = () => {
         <ul>
           <li>
             <TechStackItem
-              src={
-                isDarkMode
-                  ? '/images/nextjs-light.png'
-                  : '/images/nextjs-icon-dark.png'
-              }
+              src="/images/nextjs-icon-dark.png"
               brand="NextJS"
               link="https://nextjs.org/"
             />
@@ -112,9 +103,7 @@ const Tech = () => {
           </li>
           <li>
             <TechStackItem
-              src={
-                isDarkMode ? '/images/prisma-light.png' : '/images/prisma.png'
-              }
+              src="/images/prisma.png"
               brand="Prisma"
               link="https://www.prisma.io/"
               width={40}

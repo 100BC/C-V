@@ -7,11 +7,6 @@ import styles from '@styles/home.module.scss';
 import TechStackItem from '@components/TechStackItem';
 
 const Home = () => {
-  const isDarkMode =
-    typeof window !== 'undefined'
-      ? window.matchMedia('(prefers-color-scheme: dark)').matches
-      : false;
-
   return (
     <Layout noIndex className={styles.home}>
       <h1>Otman Maowed</h1>
@@ -122,9 +117,7 @@ const Home = () => {
         <ul className={styles.work}>
           <li>
             <TechStackItem
-              src={
-                isDarkMode ? '/images/github-light.png' : '/images/github.png'
-              }
+              src="/images/github.png"
               brand="GitHub"
               link="https://github.com/100BC"
             />
