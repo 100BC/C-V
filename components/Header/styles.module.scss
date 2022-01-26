@@ -7,7 +7,7 @@
   width: 100%;
   max-width: $max-width;
   margin: auto;
-  background: var(--background-color);
+  background: $bg-400;
 
   > nav {
     display: flex;
