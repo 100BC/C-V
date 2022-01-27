@@ -116,6 +116,13 @@ const Tech = () => {
               width={40}
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/images/psql.svg"
+              brand="PostgreSQL"
+              link="https://www.postgresql.org/"
+            />
+          </li>
         </ul>
       </section>
       <section>
