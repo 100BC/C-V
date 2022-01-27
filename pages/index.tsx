@@ -8,7 +8,7 @@ import TechStackItem from '@components/TechStackItem';
 
 const Home = () => {
   return (
-    <Layout noIndex className={styles.home}>
+    <Layout noIndex>
       <h1>Otman Maowed</h1>
       <div className={styles.links}>
         <Link href="mailto:web@otman.dev">
@@ -111,7 +111,7 @@ const Home = () => {
               src="/images/linkedin.png"
               brand="LinkedIn"
               link="https://www.linkedin.com/in/otman-dev/"
-              width={56.4}
+              width={42.3}
             />
           </li>
         </ul>

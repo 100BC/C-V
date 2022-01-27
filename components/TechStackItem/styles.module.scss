@@ -7,17 +7,11 @@
   align-items: center;
   width: min-content;
   margin: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
   white-space: nowrap;
-
-  &:hover {
-    svg {
-      fill: $blue-300;
-    }
-  }
 }
 
-.external {
-  display: inline-flex;
-  gap: 4px;
-  align-items: center;
+.link {
+  font-weight: 400;
 }

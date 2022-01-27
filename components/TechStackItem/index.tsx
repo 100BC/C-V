@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import OpenExternal from '@public/svg/open-external.svg';
+import { combine } from '@utils/styleHelpers';
 import styles from './styles.module.scss';
 
 interface Props {
@@ -17,13 +17,13 @@ const TechStackItem = ({
   link,
   src,
   brand,
-  width = 48,
-  height = 48,
+  width = 36,
+  height = 36,
 }: Props) => {
   if (link) {
     return (
       <Link href={link}>
-        <a className={styles.item} rel="external">
+        <a className={combine(styles.item, styles.link)} rel="external">
           <Image
             src={src}
             layout="fixed"
@@ -31,11 +31,7 @@ const TechStackItem = ({
             height={height}
             alt={`${brand} Logo"`}
           />
-
-          <span className={styles.external}>
-            {brand}
-            <OpenExternal />
-          </span>
+          {brand}
         </a>
       </Link>
     );

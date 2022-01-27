@@ -13,6 +13,9 @@ const Tech = () => {
       className={styles.tech}
     >
       <h1>Tech Stack</h1>
+      <div>
+        Clicking on a tool or framework will open their respective website
+      </div>
       <section>
         <h2>Languages</h2>
         <hr />
@@ -63,7 +66,7 @@ const Tech = () => {
               src="/images/redux.png"
               brand="Redux"
               link="https://redux.js.org/"
-              height={43}
+              height={32.25}
             />
           </li>
           <li>
@@ -105,7 +108,7 @@ const Tech = () => {
               src="/images/firebase.png"
               brand="Firebase"
               link="https://firebase.google.com/"
-              width={35}
+              width={26.25}
             />
           </li>
           <li>
@@ -113,7 +116,7 @@ const Tech = () => {
               src="/images/prisma.png"
               brand="Prisma"
               link="https://www.prisma.io/"
-              width={40}
+              width={30}
             />
           </li>
           <li>
@@ -133,8 +136,8 @@ const Tech = () => {
             <TechStackItem
               src="/images/tux.png"
               brand="Linux"
-              link="https://www.linuxfoundation.org/"
-              width={42}
+              link="https://www.kernel.org/"
+              width={31.5}
             />
           </li>
           <li>

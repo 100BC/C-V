@@ -1,10 +1,6 @@
 @use './abstracts' as *;
 
 .tech {
-  h2 {
-    font-size: 6rem;
-  }
-
   ul {
     display: flex;
     flex-wrap: wrap;
