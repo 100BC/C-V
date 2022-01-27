@@ -15,10 +15,11 @@
 
   a {
     font-size: 2rem;
-    color: $blue-200;
+    color: $blue-300;
 
     &:hover {
-      text-shadow: 0 0 1px $blue-400;
+      color: $blue-600;
+      text-decoration: underline;
     }
   }
 }
