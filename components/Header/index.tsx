@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
+import { combine, conditional } from '@utils/styleHelpers';
 import styles from './styles.module.scss';
 
 const Header = () => {
@@ -21,8 +22,9 @@ const Header = () => {
 
   return (
     <header
-      className={[styles.header, `${headerDark ? styles.headerDark : ''}`].join(
-        ' '
+      className={combine(
+        styles.header,
+        conditional(headerDark, styles.headerDark)
       )}
     >
       <nav>
