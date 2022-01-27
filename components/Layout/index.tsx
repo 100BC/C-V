@@ -8,7 +8,26 @@ import {
   META_TITLE,
   SITE_NAME,
 } from '@utils/constants';
-import Header from '../Header';
+import Header from '@components/Header';
+
+type Props = {
+  title?: string;
+  description?: string;
+  ogpTitle?: string;
+  ogpType?: string;
+  twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player';
+  twitterSite?: string;
+  twitterCreator?: string;
+  noIndex?: boolean;
+  className?: string;
+  children?: ReactNode;
+} & AllOrNone<{
+  ogpImg: string | null | undefined;
+  ogpImgAlt: string;
+  ogpImgWidth: number;
+  ogpImgHeight: number;
+}> &
+  XOR<{ canonicalUrl?: string }, { canonicalUrlPath?: string }>;
 
 const Layout = ({
   title = META_TITLE,
@@ -25,7 +44,7 @@ const Layout = ({
   twitterSite,
   twitterCreator,
   noIndex = false, // prevents the page from being scraped by robots
-  className = '', // styles for the <main> tag that wraps the content
+  className, // styles for the <main> tag that wraps the content
   children,
 }: Props) => (
   <>
@@ -70,24 +89,3 @@ const Layout = ({
 );
 
 export default Layout;
-
-type Props = {
-  title?: string;
-  description?: string;
-  ogpTitle?: string;
-  ogpType?: string;
-  twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player';
-  twitterSite?: string;
-  twitterCreator?: string;
-  noIndex?: boolean;
-  className?: string;
-  children?: ReactNode;
-} & AllOrNone<OgpImageProps> &
-  XOR<{ canonicalUrl?: string }, { canonicalUrlPath?: string }>;
-
-interface OgpImageProps {
-  ogpImg: string | null | undefined;
-  ogpImgAlt: string;
-  ogpImgWidth: number;
-  ogpImgHeight: number;
-}
