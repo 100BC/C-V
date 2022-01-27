@@ -44,7 +44,7 @@ const WorkExperiencePage = () => {
           </a>
         </Link>
         <Link href="/work-experience?page=2">
-          <a className={conditional(activePage === '1', styles.active)}>
+          <a className={conditional(activePage === '2', styles.active)}>
             University Projects
           </a>
         </Link>
