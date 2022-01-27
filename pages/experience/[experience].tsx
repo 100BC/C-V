@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { conditional } from '@utils/styleHelpers';
 
 import Layout from '@components/Layout';
-import styles from '@styles/workExperience.module.scss';
+import styles from '@styles/experience.module.scss';
 import WorkExperience from '@components/WorkExperienceRender/WorkExperience';
 import PersonalProjects from '@components/WorkExperienceRender/PersonalProjects';
 import UniProjects from '@components/WorkExperienceRender/UniProjects';
