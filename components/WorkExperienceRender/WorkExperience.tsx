@@ -7,6 +7,7 @@ const WorkExperience = () => {
     <>
       <WorkExperienceItem
         title="Interface Fluidics"
+        id="interfacefluidics"
         address="Edmonton / Remote"
         jobTitle="React Developer"
         time="Oct.&nbsp;2021 - Jan.&nbsp;2022"
@@ -33,6 +34,7 @@ const WorkExperience = () => {
       </WorkExperienceItem>
       <WorkExperienceItem
         title="Buddytree"
+        id="buddytree"
         address="Remote"
         jobTitle="Web Developer"
         time="Feb.&nbsp;2021 - Sep.&nbsp;2021"

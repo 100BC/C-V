@@ -10,6 +10,7 @@ interface Props {
   address?: string;
   links?: { href: string; name: string }[];
   children: ReactNode;
+  id?: string;
 }
 
 const WorkExperienceItem = ({
@@ -19,25 +20,29 @@ const WorkExperienceItem = ({
   address,
   links,
   children,
+  id,
 }: Props) => {
   return (
-    <div className={styles.experience}>
-      <h2>{title}</h2>
-      <div className={styles.descriptor}>
-        <h3>{jobTitle}</h3>
-        <time>{time}</time>
+    <>
+      {id && <div className={styles.anchor} id={id} />}
+      <div className={styles.experience}>
+        <h2>{title}</h2>
+        <div className={styles.descriptor}>
+          <h3>{jobTitle}</h3>
+          <time>{time}</time>
+        </div>
+        <address>
+          {address}
+          {links &&
+            links.map((i) => (
+              <Link href={i.href} key={i.href}>
+                <a>{i.name}</a>
+              </Link>
+            ))}
+        </address>
+        <ul>{children}</ul>
       </div>
-      <address>
-        {address}
-        {links &&
-          links.map((i) => (
-            <Link href={i.href} key={i.href}>
-              <a>{i.name}</a>
-            </Link>
-          ))}
-      </address>
-      <ul>{children}</ul>
-    </div>
+    </>
   );
 };
 

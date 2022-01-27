@@ -70,7 +70,7 @@ const Home = () => {
         </Link>
         <ul className={styles.work}>
           <li>
-            <Link href="https://www.interfacefluidics.com/">
+            <Link href="/experience/work#interfacefluidics">
               <a>
                 Interface Fluidics
                 <div>Previous Employer</div>
@@ -78,7 +78,7 @@ const Home = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.buddytree.org">
+            <Link href="/experience/work#buddytree">
               <a>
                 Buddytree
                 <div>Past Employer</div>
@@ -86,7 +86,7 @@ const Home = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.mooseical.com">
+            <Link href="/experience/projects#mooseical">
               <a>
                 Mooseical
                 <div>Personal Project</div>

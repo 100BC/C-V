@@ -7,6 +7,7 @@ const PersonalProjects = () => {
     <>
       <WorkExperienceItem
         title="Mooseical"
+        id="mooseical"
         jobTitle="Canadian Underground Music Database"
         time="Oct.&nbsp;2020 - Present"
         links={[{ href: 'https://www.mooseical.com/', name: 'mooseical.com' }]}
