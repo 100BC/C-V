@@ -23,8 +23,9 @@ const Home = () => {
           <Image
             src="/images/otman.png"
             layout="intrinsic"
-            width={300}
-            height={300}
+            width={250}
+            height={250}
+            quality={100}
             alt="Otman Maowed smiling at the camera"
             objectFit="cover"
             className={styles.headshot}
@@ -37,7 +38,7 @@ const Home = () => {
           </ul>
         </div>
       </section>
-      <section className={styles.techStack}>
+      <section>
         <h2>Main Tech Stack</h2>
         <hr />
         <Link href="/tech-stack">
@@ -45,7 +46,7 @@ const Home = () => {
             See all frameworks and tools I use &rArr;
           </a>
         </Link>
-        <ul>
+        <ul className={styles.techStack}>
           <li>
             <TechStackItem src="/brands/ts.png" brand="TypeScript" />
           </li>
@@ -63,7 +64,7 @@ const Home = () => {
       <section>
         <h2>See My Work</h2>
         <hr />
-        <Link href="/work-experience?page=0">
+        <Link href="/experience/work">
           <a className={styles.readMore}>
             Read more about my work experience &rArr;
           </a>
@@ -95,10 +96,10 @@ const Home = () => {
           </li>
         </ul>
       </section>
-      <section className={styles.techStack}>
+      <section>
         <h2>Links</h2>
         <hr />
-        <ul>
+        <ul className={styles.techStack}>
           <li>
             <TechStackItem
               src="/brands/github.png"
@@ -115,6 +116,13 @@ const Home = () => {
             />
           </li>
         </ul>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <hr />
+        <Link href="mailto:web@otman.dev">
+          <a className={styles.contact}>Email: web@otman.dev</a>
+        </Link>
       </section>
     </Layout>
   );
