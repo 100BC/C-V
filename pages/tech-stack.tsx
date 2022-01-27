@@ -157,7 +157,7 @@ const Tech = () => {
           <li>
             <TechStackItem
               src="/brands/github-actions.png"
-              brand="Github Actions"
+              brand="GitHub Actions"
               link="https://github.com/features/actions"
             />
           </li>

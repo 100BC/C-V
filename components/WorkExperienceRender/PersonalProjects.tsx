@@ -13,21 +13,26 @@ const PersonalProjects = () => {
         links={[{ href: 'https://www.mooseical.com/', name: 'mooseical.com' }]}
       >
         <li>
-          Passion project that showcases the database of underground Canadian
+          Passion project that showcases a database of underground Canadian
           musicians
         </li>
         <li>
-          Users can find musicians and albums based on location and genre,
-          respectively
+          Users can find musicians and music based on location and genre,
+          respectively. Further filtering base on url querying is available for
+          the music database
         </li>
         <li>Front-End built with NextJS, TypeScript, and SCSS</li>
-        <li>Created a custom GraphQL Express server with Prisma ORM</li>
-        <li>Server caching is handled by Redis</li>
         <li>
-          Docker was used to containerize the Redis and PostgreSQL databases
+          Created a custom GraphQL NodeJS server (Fastify) with Prisma ORM that
+          is connected to PostgresSQL database
         </li>
-        <li>Nexus Schema manages the back-end GraphQL schema</li>
-        <li>URQL handles the client side GraphQL</li>
+        <li>The server is self-hosted via DigitalOcean VPS</li>
+        <li>The server utilizes GitHub Actions to automate deployment</li>
+        <li>Pothos GraphQL manages the back-end GraphQL schema</li>
+        <li>
+          URQL handles the client side GraphQL with graphql-codegen to manage
+          TypeScript typings
+        </li>
         <li>
           Uploaded Images are compressed and resized and uploaded to Google
           Firebase Storage
@@ -85,10 +90,7 @@ const PersonalProjects = () => {
       >
         <li>Built with NextJS and TypeScript</li>
         <li>Created to better showcase my work, achievements and skill set</li>
-        <li>
-          Follows Responsive Web Design and has automatic dark theme based on
-          user preference
-        </li>
+        <li>Follows Responsive Web Design</li>
         <li>
           This website receives continuous updates to improve usability and
           update technology

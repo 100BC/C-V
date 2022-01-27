@@ -8,7 +8,7 @@ const WorkExperience = () => {
       <WorkExperienceItem
         title="Interface Fluidics"
         id="interfacefluidics"
-        address="Edmonton / Remote"
+        address="Edmonton, AB / Remote"
         jobTitle="React Developer"
         time="Oct.&nbsp;2021 - Jan.&nbsp;2022"
         links={[
