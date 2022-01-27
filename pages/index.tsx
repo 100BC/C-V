@@ -47,13 +47,13 @@ const Home = () => {
         </Link>
         <ul>
           <li>
-            <TechStackItem src="/images/ts-logo-128.png" brand="TypeScript" />
+            <TechStackItem src="/images/ts.png" brand="TypeScript" />
           </li>
           <li>
             <TechStackItem src="/images/react.png" brand="ReactJS" />
           </li>
           <li>
-            <TechStackItem src="/images/GraphQL-mark.png" brand="GraphQL" />
+            <TechStackItem src="/images/graphql.png" brand="GraphQL" />
           </li>
           <li>
             <TechStackItem src="/images/sass.png" brand="SASS" />
@@ -111,7 +111,7 @@ const Home = () => {
               src="/images/linkedin.png"
               brand="LinkedIn"
               link="https://www.linkedin.com/in/otman-dev/"
-              width={42.3}
+              width={42}
             />
           </li>
         </ul>
