@@ -22,21 +22,21 @@ const Tech = () => {
         <ul>
           <li>
             <TechStackItem
-              src="/images/ts.png"
+              src="/brands/ts.png"
               brand="TypeScript"
               link="https://www.typescriptlang.org/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/js.png"
+              src="/brands/js.png"
               brand="JavaScript"
               link="https://www.javascript.com/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/graphql.png"
+              src="/brands/graphql.png"
               brand="GraphQL"
               link="https://graphql.org/"
             />
@@ -49,21 +49,21 @@ const Tech = () => {
         <ul>
           <li>
             <TechStackItem
-              src="/images/nextjs.png"
+              src="/brands/nextjs.png"
               brand="NextJS"
               link="https://nextjs.org/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/react.png"
+              src="/brands/react.png"
               brand="ReactJS"
               link="https://reactjs.org/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/redux.png"
+              src="/brands/redux.png"
               brand="Redux"
               link="https://redux.js.org/"
               height={33}
@@ -71,21 +71,21 @@ const Tech = () => {
           </li>
           <li>
             <TechStackItem
-              src="/images/sass.png"
+              src="/brands/sass.png"
               brand="SASS"
               link="https://sass-lang.com/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/postcss.png"
+              src="/brands/postcss.png"
               brand="PostCSS"
               link="https://postcss.org/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/mui.png"
+              src="/brands/mui.png"
               brand="MUI"
               link="https://mui.com/"
             />
@@ -98,14 +98,14 @@ const Tech = () => {
         <ul>
           <li>
             <TechStackItem
-              src="/images/nodejs.svg"
+              src="/brands/nodejs.svg"
               brand="NodeJS"
               link="https://nodejs.org/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/firebase.png"
+              src="/brands/firebase.png"
               brand="Firebase"
               link="https://firebase.google.com/"
               width={26}
@@ -113,7 +113,7 @@ const Tech = () => {
           </li>
           <li>
             <TechStackItem
-              src="/images/prisma.png"
+              src="/brands/prisma.png"
               brand="Prisma"
               link="https://www.prisma.io/"
               width={29}
@@ -121,7 +121,7 @@ const Tech = () => {
           </li>
           <li>
             <TechStackItem
-              src="/images/psql.svg"
+              src="/brands/psql.svg"
               brand="PostgreSQL"
               link="https://www.postgresql.org/"
             />
@@ -134,7 +134,7 @@ const Tech = () => {
         <ul>
           <li>
             <TechStackItem
-              src="/images/tux.png"
+              src="/brands/tux.png"
               brand="Linux"
               link="https://www.kernel.org/"
               width={30}
@@ -142,21 +142,21 @@ const Tech = () => {
           </li>
           <li>
             <TechStackItem
-              src="/images/digitalocean.png"
+              src="/brands/digitalocean.png"
               brand="DigitalOcean"
               link="https://www.digitalocean.com/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/nginx.svg"
+              src="/brands/nginx.svg"
               brand="NGINX"
               link="https://www.nginx.com/"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/github-actions.png"
+              src="/brands/github-actions.png"
               brand="Github Actions"
               link="https://github.com/features/actions"
             />

@@ -47,16 +47,16 @@ const Home = () => {
         </Link>
         <ul>
           <li>
-            <TechStackItem src="/images/ts.png" brand="TypeScript" />
+            <TechStackItem src="/brands/ts.png" brand="TypeScript" />
           </li>
           <li>
-            <TechStackItem src="/images/react.png" brand="ReactJS" />
+            <TechStackItem src="/brands/react.png" brand="ReactJS" />
           </li>
           <li>
-            <TechStackItem src="/images/graphql.png" brand="GraphQL" />
+            <TechStackItem src="/brands/graphql.png" brand="GraphQL" />
           </li>
           <li>
-            <TechStackItem src="/images/sass.png" brand="SASS" />
+            <TechStackItem src="/brands/sass.png" brand="SASS" />
           </li>
         </ul>
       </section>
@@ -101,14 +101,14 @@ const Home = () => {
         <ul>
           <li>
             <TechStackItem
-              src="/images/github.png"
+              src="/brands/github.png"
               brand="GitHub"
               link="https://github.com/100BC"
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/linkedin.png"
+              src="/brands/linkedin.png"
               brand="LinkedIn"
               link="https://www.linkedin.com/in/otman-dev/"
               width={42}
