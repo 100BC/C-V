@@ -52,6 +52,7 @@ const PersonalProjects = () => {
       </WorkExperienceItem>
       <WorkExperienceItem
         title="nextjs template"
+        id="nextjstemplate"
         jobTitle="Template Repository"
         time="Mar.&nbsp;2021 - Present"
         links={[
