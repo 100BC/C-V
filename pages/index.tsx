@@ -47,32 +47,16 @@ const Home = () => {
         </Link>
         <ul>
           <li>
-            <TechStackItem
-              src="/images/ts-logo-128.png"
-              brand="TypeScript"
-              link="https://www.typescriptlang.org/"
-            />
+            <TechStackItem src="/images/ts-logo-128.png" brand="TypeScript" />
           </li>
           <li>
-            <TechStackItem
-              src="/images/react.png"
-              brand="ReactJS"
-              link="https://reactjs.org/"
-            />
+            <TechStackItem src="/images/react.png" brand="ReactJS" />
           </li>
           <li>
-            <TechStackItem
-              src="/images/GraphQL-mark.png"
-              brand="GraphQL"
-              link="https://graphql.org/"
-            />
+            <TechStackItem src="/images/GraphQL-mark.png" brand="GraphQL" />
           </li>
           <li>
-            <TechStackItem
-              src="/images/sass.png"
-              brand="SASS"
-              link="https://sass-lang.com/"
-            />
+            <TechStackItem src="/images/sass.png" brand="SASS" />
           </li>
         </ul>
       </section>

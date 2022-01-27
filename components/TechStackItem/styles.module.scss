@@ -8,4 +8,16 @@
   width: min-content;
   margin: 2rem;
   white-space: nowrap;
+
+  &:hover {
+    svg {
+      fill: $blue-300;
+    }
+  }
+}
+
+.external {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
 }
