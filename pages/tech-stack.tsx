@@ -95,9 +95,9 @@ const Tech = () => {
         <ul>
           <li>
             <TechStackItem
-              src="/images/express.png"
-              brand="ExpressJS"
-              link="https://expressjs.com/"
+              src="/images/nodejs.svg"
+              brand="NodeJS"
+              link="https://nodejs.org/"
             />
           </li>
           <li>
@@ -116,20 +116,39 @@ const Tech = () => {
               width={40}
             />
           </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Server Tools</h2>
+        <hr />
+        <ul>
           <li>
             <TechStackItem
-              src="/images/docker.png"
-              brand="Docker"
-              link="https://www.docker.com/"
-              height={34.5}
+              src="/images/tux.png"
+              brand="Linux"
+              link="https://www.linuxfoundation.org/"
+              width={42}
             />
           </li>
           <li>
             <TechStackItem
-              src="/images/redis-cube.png"
-              brand="Redis"
-              link="https://redis.io/"
-              height={41}
+              src="/images/DO.png"
+              brand="DigitalOcean"
+              link="https://www.digitalocean.com/"
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/nginx.svg"
+              brand="NGINX"
+              link="https://www.nginx.com/"
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/actions.png"
+              brand="Github Actions"
+              link="https://github.com/features/actions"
             />
           </li>
         </ul>
