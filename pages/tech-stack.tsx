@@ -7,7 +7,7 @@ import styles from '@styles/techStack.module.scss';
 const Tech = () => {
   return (
     <Layout
-      title="Otman Maowed | Tech Stack"
+      title="Otman Maoued | Tech Stack"
       noIndex
       canonicalUrlPath="/tech-stack"
       className={styles.tech}
@@ -159,6 +159,35 @@ const Tech = () => {
               src="/brands/github-actions.png"
               brand="GitHub Actions"
               link="https://github.com/features/actions"
+            />
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Learning Next</h2>
+        <hr />
+        <ul>
+          <li>
+            <TechStackItem
+              src="/brands/jest.png"
+              brand="Jest"
+              link="https://jestjs.io/"
+              width={32}
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/brands/framer-motion.png"
+              brand="Framer Motion"
+              link="https://www.framer.com/motion/"
+              height={34}
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/brands/vue.svg"
+              brand="Vue.js"
+              link="https://vuejs.org/"
             />
           </li>
         </ul>

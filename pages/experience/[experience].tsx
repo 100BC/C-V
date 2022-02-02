@@ -7,10 +7,9 @@ import Layout from '@components/Layout';
 import styles from '@styles/experience.module.scss';
 import WorkExperience from '@components/WorkExperienceRender/WorkExperience';
 import PersonalProjects from '@components/WorkExperienceRender/PersonalProjects';
-import UniProjects from '@components/WorkExperienceRender/UniProjects';
 
 interface Props {
-  page: 'work' | 'projects' | 'university';
+  page: 'work' | 'projects';
 }
 
 const Experience = ({ page }: Props) => {
@@ -18,10 +17,10 @@ const Experience = ({ page }: Props) => {
     <Layout
       noIndex
       canonicalUrlPath={`/experience/${page}`}
-      title="Otman Maowed | Work Experience"
+      title="Otman Maoued | Work Experience"
     >
-      <h1>Work Experience</h1>
-      <nav className={styles.nav}>
+      <h1>Experience</h1>
+      <nav className={styles.nav} aria-label="swap type of experience">
         <Link href="/experience/work">
           <a className={conditional(page === 'work', styles.active)}>
             Work Experience
@@ -32,16 +31,10 @@ const Experience = ({ page }: Props) => {
             Personal Projects
           </a>
         </Link>
-        <Link href="/experience/university">
-          <a className={conditional(page === 'university', styles.active)}>
-            University Projects
-          </a>
-        </Link>
       </nav>
       <section>
         {page === 'work' && <WorkExperience />}
         {page === 'projects' && <PersonalProjects />}
-        {page === 'university' && <UniProjects />}
       </section>
     </Layout>
   );
@@ -52,7 +45,6 @@ export const getStaticPaths: GetStaticPaths = () => {
     paths: [
       { params: { experience: 'work' } },
       { params: { experience: 'projects' } },
-      { params: { experience: 'university' } },
     ],
     fallback: false,
   };

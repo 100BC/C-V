@@ -9,15 +9,8 @@ import TechStackItem from '@components/TechStackItem';
 const Home = () => {
   return (
     <Layout noIndex>
-      <h1>Otman Maowed</h1>
-      <div className={styles.links}>
-        <Link href="mailto:web@otman.dev">
-          <a>Email: web@otman.dev</a>
-        </Link>
-        <Link href="https://drive.google.com/open?id=1pvT4qTGDJDJboUDofdFPO-7-w8e5tc8A">
-          <a>Download my Résumé</a>
-        </Link>
-      </div>
+      <h1>Otman Maoued</h1>
+      <i>(ot-man maow-WED)</i>
       <section>
         <div className={styles.info}>
           <Image
@@ -26,7 +19,7 @@ const Home = () => {
             width={250}
             height={250}
             quality={100}
-            alt="Otman Maowed smiling at the camera"
+            alt="Otman Maoued smiling at the camera"
             objectFit="cover"
             className={styles.headshot}
           />
@@ -122,6 +115,13 @@ const Home = () => {
         <hr />
         <Link href="mailto:web@otman.dev">
           <a className={styles.contact}>Email: web@otman.dev</a>
+        </Link>
+      </section>
+      <section>
+        <h2>Download Résumé</h2>
+        <hr />
+        <Link href="https://drive.google.com/open?id=1pvT4qTGDJDJboUDofdFPO-7-w8e5tc8A">
+          <a className={styles.contact}>Open via Google Drive</a>
         </Link>
       </section>
     </Layout>

@@ -37,7 +37,7 @@ const Layout = ({
   ogpTitle, // if undefined, the og:title defaults to {title}
   ogpType = 'website', // see https://ogp.me/#types
   ogpImg = `${DOMAIN_NAME}/OGP.png`, // if ogpImage is defined, alt, width and height must be defined
-  ogpImgAlt = 'Otman Maowed on blue background',
+  ogpImgAlt = 'Otman Maoued on blue background',
   ogpImgWidth = 1200,
   ogpImgHeight = 630,
   twitterCard = 'summary_large_image',
