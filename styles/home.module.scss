@@ -1,5 +1,18 @@
 @use './abstracts' as *;
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  > li {
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: center;
+  }
+}
+
 .work {
   display: flex;
   flex-wrap: wrap;
@@ -51,9 +64,4 @@
 .readMore {
   display: block;
   margin: 0 0 2rem;
-}
-
-.contact {
-  display: block;
-  margin-top: 4rem;
 }

@@ -92,7 +92,7 @@ const Home = () => {
       <section>
         <h2>Links</h2>
         <hr />
-        <ul className={styles.techStack}>
+        <ul className={styles.links}>
           <li>
             <TechStackItem
               src="/brands/github.png"
@@ -108,21 +108,21 @@ const Home = () => {
               width={42}
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/images/email.svg"
+              brand="web@otman.dev"
+              link="mailto:web@otman.dev"
+            />
+          </li>
+          <li>
+            <TechStackItem
+              src="/images/document.svg"
+              brand="Download Résumé"
+              link="https://drive.google.com/open?id=1pvT4qTGDJDJboUDofdFPO-7-w8e5tc8A"
+            />
+          </li>
         </ul>
-      </section>
-      <section>
-        <h2>Contact</h2>
-        <hr />
-        <Link href="mailto:web@otman.dev">
-          <a className={styles.contact}>Email: web@otman.dev</a>
-        </Link>
-      </section>
-      <section>
-        <h2>Download Résumé</h2>
-        <hr />
-        <Link href="https://drive.google.com/open?id=1pvT4qTGDJDJboUDofdFPO-7-w8e5tc8A">
-          <a className={styles.contact}>Open via Google Drive</a>
-        </Link>
       </section>
     </Layout>
   );
