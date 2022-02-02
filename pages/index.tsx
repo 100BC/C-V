@@ -119,7 +119,7 @@ const Home = () => {
             <TechStackItem
               src="/images/document.svg"
               brand="Download Résumé"
-              link="https://drive.google.com/open?id=1pvT4qTGDJDJboUDofdFPO-7-w8e5tc8A"
+              link="https://drive.google.com/file/d/1JI6cw9CmJHo19gjH4lZUNnV_o8p5_-BO/view?usp=sharing"
             />
           </li>
         </ul>
