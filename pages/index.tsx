@@ -111,8 +111,8 @@ const Home = () => {
           <li>
             <TechStackItem
               src="/images/email.svg"
-              brand="web@otman.dev"
-              link="mailto:web@otman.dev"
+              brand="contact@otman.dev"
+              link="mailto:contact@otman.dev"
             />
           </li>
           <li>
