@@ -41,6 +41,13 @@ const Tech = () => {
               link="https://graphql.org/"
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/brands/python.png"
+              brand="Python"
+              link="https://www.python.org/"
+            />
+          </li>
         </ul>
       </section>
       <section>
@@ -126,6 +133,13 @@ const Tech = () => {
               link="https://www.postgresql.org/"
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/brands/redis.svg"
+              brand="Redis"
+              link="https://redis.io/"
+            />
+          </li>
         </ul>
       </section>
       <section>
@@ -161,10 +175,18 @@ const Tech = () => {
               link="https://github.com/features/actions"
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/brands/docker.png"
+              brand="Docker"
+              link="https://www.docker.com/"
+              height={25}
+            />
+          </li>
         </ul>
       </section>
       <section>
-        <h2>Learning Next</h2>
+        <h2>In Progress</h2>
         <hr />
         <ul>
           <li>
