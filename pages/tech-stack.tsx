@@ -51,7 +51,7 @@ const Tech = () => {
         </ul>
       </section>
       <section>
-        <h2>Front-End Tools</h2>
+        <h2>Front-End</h2>
         <hr />
         <ul>
           <li>
@@ -100,7 +100,7 @@ const Tech = () => {
         </ul>
       </section>
       <section>
-        <h2>Back-End Tools</h2>
+        <h2>Back-End</h2>
         <hr />
         <ul>
           <li>
@@ -143,7 +143,7 @@ const Tech = () => {
         </ul>
       </section>
       <section>
-        <h2>Server Tools</h2>
+        <h2>Server</h2>
         <hr />
         <ul>
           <li>
