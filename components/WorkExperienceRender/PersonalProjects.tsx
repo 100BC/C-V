@@ -14,28 +14,25 @@ const PersonalProjects = () => {
       >
         <li>
           Passion project that showcases a database of underground Canadian
-          musicians
-        </li>
-        <li>
-          Users can find musicians and music based on location and genre,
-          respectively. Further filtering base on url querying is available for
-          the music database
+          musicians. Users can find musicians and music based on location and
+          genre, respectively. Further filtering base on url querying is
+          available for the music database
         </li>
         <li>Front-End built with NextJS, TypeScript, and SCSS</li>
         <li>
-          Created a custom GraphQL NodeJS server (Fastify) with Prisma ORM that
-          is connected to PostgresSQL database
-        </li>
-        <li>The server is self-hosted via DigitalOcean VPS</li>
-        <li>The server utilizes GitHub Actions to automate deployment</li>
-        <li>The back-end GraphQL schema was built with Pothos</li>
-        <li>
-          URQL handles the client side GraphQL with graphql-codegen to manage
-          TypeScript typings
+          The Back-End utilizes a custom GraphQL NodeJS server (Fastify) with
+          Prisma ORM that is connected to PostgresSQL database
         </li>
         <li>
-          Cloudinary manages image CDN to optimize images to reduce Time to
-          First Byte on the Front-End
+          The server is self-hosted via DigitalOcean VPS which utilizes cron,
+          ufw and GitHub Actions for automation and security
+        </li>
+        <li>
+          Cloudinary provides an image CDN hat leverages the NextJS image api to
+          deliver image as quickly as possible
+        </li>
+        <li>
+          TypeScript type safety is ensured for the back-end and front-end
         </li>
         <li>
           Firebase Firestore and Google ReCaptcha are used to manage user forms
@@ -43,8 +40,6 @@ const PersonalProjects = () => {
         <li>
           SEO optimizations including Open Graph Protocol and Twitter Cards
         </li>
-        <li>Extensive testing is done to reduce time to first byte</li>
-        <li>Ensured responsive design, image and code optimizations</li>
         <li>
           100% Score in Performance, Accessibility, Best Practices, and SEO in
           Google Lighthouse score
