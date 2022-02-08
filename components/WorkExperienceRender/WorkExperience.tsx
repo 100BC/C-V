@@ -31,6 +31,7 @@ const WorkExperience = () => {
           Utilized GraphQL and Apollo Client to connect the front-end and the
           API
         </li>
+        <li>Managed tasks and collaboration via JIRA</li>
       </WorkExperienceItem>
       <WorkExperienceItem
         title="Buddytree"
