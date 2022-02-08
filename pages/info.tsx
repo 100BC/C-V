@@ -19,35 +19,31 @@ const Info = () => {
       <section className={styles.section}>
         <h2>Professional Information</h2>
         <p>
-          I am a Web Developer with Full-Stack knowledge that primarily
-          specializes in Front-End technologies. I have high personal standards
-          when developing websites; I always ensure that the user experience,
-          accessibility, time to first byte and search engine optimizations
-          (SEO) are of high quality. In fact, my{' '}
-          <Link href="/experience/projects#nextjstemplate">
-            <a>NextJS template repo</a>
-          </Link>{' '}
-          already comes with SEO pre-configured with Open Graph Protocol and
-          Twitter Cards, and why a lot of my sites have a perfect score on
-          Google Lighthouse (where applicable).
+          I am a Full-Stack developer that primarily specializes in Front-End
+          web development due to my passion for Human-Computer Interaction. I
+          develop websites and software that are user friendly, SEO friendly,
+          accessible, and visually appealing. I aim to achieve a perfect score
+          on Google Lighthouse (where applicable).
         </p>
         <p>
-          I enjoy expanding my knowledge and adding new tools and frameworks to
-          my tech stack. My passion project,{' '}
+          Even though, I focus on Front-End development, I am confident in my
+          Back-End abilities. I run and maintain a server for my passion project{' '}
           <Link href="/experience/projects#mooseical">
             <a>Mooseical</a>
-          </Link>{' '}
-          is constantly updated with the latest technologies. Most recently, I
-          configured an Ubuntu server on DigitalOcean to host Mooseical&apos;s
-          server. This required learning NGINX, GitHub Actions, cron, and many
-          other technologies. For my next undertaking I shall be adding more
-          animation to Mooseical via Framer Motion.
+          </Link>
+          , which also utilizes serverless technologies for enhanced
+          performance.
+        </p>
+        <p>
+          In my spare time, I enjoy coding and adding the latest technologies
+          towards my tech-stack. Therefore, I am always excited to adapt to a
+          company&apos;s tech-stack even if I haven&apos;t previously the
+          required technologies.
         </p>
         <p>
           My university education focused substantially on Human-Computer
           Interaction. I participated in independent studies to expand my
-          experience and knowledge in the field. Personally, user experience and
-          accessibility are major considerations when developing websites.
+          experience and knowledge in the field.
         </p>
       </section>
       <section className={styles.section}>

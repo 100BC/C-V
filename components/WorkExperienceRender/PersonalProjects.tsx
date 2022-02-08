@@ -28,14 +28,14 @@ const PersonalProjects = () => {
         </li>
         <li>The server is self-hosted via DigitalOcean VPS</li>
         <li>The server utilizes GitHub Actions to automate deployment</li>
-        <li>Pothos GraphQL manages the back-end GraphQL schema</li>
+        <li>The back-end GraphQL schema was built with Pothos</li>
         <li>
           URQL handles the client side GraphQL with graphql-codegen to manage
           TypeScript typings
         </li>
         <li>
-          Uploaded Images are compressed and resized and uploaded to Google
-          Firebase Storage
+          Cloudinary manages image CDN to optimize images to reduce Time to
+          First Byte on the Front-End
         </li>
         <li>
           Firebase Firestore and Google ReCaptcha are used to manage user forms

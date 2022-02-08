@@ -183,6 +183,14 @@ const Tech = () => {
               height={25}
             />
           </li>
+          <li>
+            <TechStackItem
+              src="/brands/cloudinary.png"
+              brand="Cloudinary"
+              link="https://cloudinary.com/"
+              height={23}
+            />
+          </li>
         </ul>
       </section>
       <section>

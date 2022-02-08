@@ -30,6 +30,8 @@ const TechStackItem = ({
             width={width}
             height={height}
             alt={`${brand} Logo"`}
+            unoptimized
+            quality={100}
           />
           {brand}
         </a>
