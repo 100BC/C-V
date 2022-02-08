@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Layout from '@components/Layout';
 import styles from '@styles/home.module.scss';
 import TechStackItem from '@components/TechStackItem';
+import headshot from '@public/images/otman.png';
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <section>
         <div className={styles.info}>
           <Image
-            src="/images/otman.png"
+            src={headshot}
             layout="intrinsic"
             width={250}
             height={250}
@@ -22,6 +23,7 @@ const Home = () => {
             alt="Otman Maoued smiling at the camera"
             objectFit="cover"
             className={styles.headshot}
+            placeholder="blur"
           />
           <ul>
             <li>Web Developer</li>
