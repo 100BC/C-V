@@ -20,13 +20,13 @@ const Info = () => {
         <h2>Professional Information</h2>
         <p>
           I am a Full-Stack developer that primarily specializes in Front-End
-          web development due to my passion for Human-Computer Interaction. I
+          web development because of my passion in Human-Computer Interaction. I
           develop websites and software that are user friendly, SEO friendly,
           accessible, and visually appealing. I aim to achieve a perfect score
           on Google Lighthouse (where applicable).
         </p>
         <p>
-          Even though, I focus on Front-End development, I am confident in my
+          Even though I focus on Front-End development, I am confident in my
           Back-End abilities. I run and maintain a server for my passion project{' '}
           <Link href="/experience/projects#mooseical">
             <a>Mooseical</a>
@@ -37,8 +37,8 @@ const Info = () => {
         <p>
           In my spare time, I enjoy coding and adding the latest technologies
           towards my tech-stack. Therefore, I am always excited to adapt to a
-          company&apos;s tech-stack even if I haven&apos;t previously the
-          required technologies.
+          company&apos;s tech-stack even if I haven&apos;t previously utilized
+          the required technologies.
         </p>
         <p>
           My university education focused substantially on Human-Computer

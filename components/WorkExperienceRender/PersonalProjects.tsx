@@ -18,24 +18,21 @@ const PersonalProjects = () => {
           genre, respectively. Further filtering base on url querying is
           available for the music database
         </li>
-        <li>Front-End built with NextJS, TypeScript, and SCSS</li>
+        <li>Front-End built with NextJS and SCSS</li>
         <li>
-          The Back-End utilizes a custom GraphQL NodeJS server (Fastify) with
-          Prisma ORM that is connected to PostgresSQL database
+          The Back-End utilizes a custom GraphQL NodeJS server (Fastify). Prisma
+          and PostgresSQL database manage the database structure and queries
         </li>
         <li>
           The server is self-hosted via DigitalOcean VPS which utilizes cron,
-          ufw and GitHub Actions for automation and security
+          ufw, and GitHub Actions for automation and security
         </li>
         <li>
-          Cloudinary provides an image CDN hat leverages the NextJS image api to
-          deliver image as quickly as possible
+          Cloudinary provides an image CDN that leverages the NextJS image api
+          to deliver image as quickly as possible
         </li>
         <li>
           TypeScript type safety is ensured for the back-end and front-end
-        </li>
-        <li>
-          Firebase Firestore and Google ReCaptcha are used to manage user forms
         </li>
         <li>
           SEO optimizations including Open Graph Protocol and Twitter Cards
