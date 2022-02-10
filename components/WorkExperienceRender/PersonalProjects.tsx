@@ -27,6 +27,7 @@ const PersonalProjects = () => {
           The server is self-hosted via DigitalOcean VPS which utilizes cron,
           ufw, and GitHub Actions for automation and security
         </li>
+        <li>Optimized the GraphQL Schema to avoid the n+1 problem</li>
         <li>
           Cloudinary provides an image CDN that leverages the NextJS image api
           to deliver image as quickly as possible
